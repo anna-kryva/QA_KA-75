@@ -11,7 +11,6 @@ namespace TRPZ
             Data = data;
         }
         public T Data { get; set; }
-        public StackNode<T> Next { get; set; }
         public StackNode<T> Previous { get; set; }
     }
 }

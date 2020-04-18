@@ -16,27 +16,48 @@ namespace TRPZ
         {
         }
 
-        [Test]
-        public void DoublyLinkedListTest1()
+        [TestCase(1, 0, ExpectedResult = 0)]
+        [TestCase(11, 0, ExpectedResult = 10)]
+        [TestCase(10,5, ExpectedResult = 4)]
+        [TestCase(5, 10, ExpectedResult = default(int))]
+        [TestCase(0, 10, ExpectedResult = default(int))]
+        [TestCase(0, 0, ExpectedResult = default(int))]
+        public int StackTest1(int Max, int NumPop )
         {
-            Stack<int> list = new Stack<int>();
-            var list2 = new System.Collections.Generic.List<int>();
-            for(int i =0; i<10; i++)
+            var stack = new Stack<int>();
+            for(int i = 0; i < Max; i++)
             {
-                list.Add(i);
-                list2.Add(i);
+                stack.Push(i);
+            }
+            for(int i = 0; i < NumPop; i++)
+            {
+                stack.Pop();
             }
 
-            if (list.GetCurrent() == 0)
-            {
-                Assert.Pass();
-            }
-            else
-            {
-                Assert.Fail();
-            }
-            
+            return stack.Peek();
         }
+
+        [TestCase(1, 0, ExpectedResult = "0")]
+        [TestCase(11, 0, ExpectedResult = "10")]
+        [TestCase(10, 5, ExpectedResult = "4")]
+        [TestCase(5, 10, ExpectedResult = default(string))]
+        [TestCase(0, 10, ExpectedResult = default(string))]
+        [TestCase(0, 0, ExpectedResult = default(string))]
+        public string StackTest2(int Max, int NumPop)
+        {
+            var stack = new Stack<string>();
+            for (int i = 0; i < Max; i++)
+            {
+                stack.Push(i.ToString());
+            }
+            for (int i = 0; i < NumPop; i++)
+            {
+                stack.Pop();
+            }
+
+            return stack.Peek();
+        }
+
 
         [TestCase("1.2.3", "4.5.6", ExpectedResult = -1)]
         [TestCase("1", "1.0", ExpectedResult = 0)]
@@ -45,16 +66,16 @@ namespace TRPZ
         [TestCase("1.0.0.0.0.0.0.0.0.0.0.0.0", "1.0.0.0.0.0.0.0.0.0", ExpectedResult = 0)]
         [TestCase("1.0.0.0.0.0.0.0.0.1", "1.0.0.0.0.0.0.0.0.0.0.0.1", ExpectedResult = 1)]
         [TestCase("1.0.0.0.0.0.0.0.0.0.0.0.1", "1.0.0.0.0.0.0.0.0.1", ExpectedResult = -1)]
-        public int CompareVersions(string ver1, string ver2)
+        public int CompareVersions(string v1, string v2)
         {
-            ver1 = ver1.Replace(".", "");
-            ver2 = ver2.Replace(".", "");
-            int diff = ver1.Length - ver2.Length;
+            v1 = v1.Replace(".", "");
+            v2 = v2.Replace(".", "");
+            int diff = v1.Length - v2.Length;
 
-            ver2 = (diff > 0 ? ver2 + String.Concat(Enumerable.Repeat("0", diff)) : ver2);
-            ver1 = (diff < 0 ? ver1 + String.Concat(Enumerable.Repeat("0", -diff)) : ver1);
+            v2 = (diff > 0 ? v2 + String.Concat(Enumerable.Repeat("0", diff)) : v2);
+            v1 = (diff < 0 ? v1 + String.Concat(Enumerable.Repeat("0", -diff)) : v1);
             
-            return String.Compare(ver1,ver2);
+            return String.Compare(v1,v2);
         }
 
 

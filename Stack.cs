@@ -6,61 +6,53 @@ namespace TRPZ
 {
     public class Stack<T>
     {
-        StackNode<T> head;
-        StackNode<T> tail;
-        StackNode<T> current;
+        StackNode<T> Head;
         int count;
 
         public Stack()
         {
-            head = null;
-            tail = null;
-            current = null;
+            Head = null;
             count = 0;
         }
 
-        public void Add(T data)
+        public T Push(T data)
         {
-            StackNode<T> node = new StackNode<T>(data);
-            if (head == null)
-            {
-                head = node;
-            }
-            else
-            {
-                tail.Next = node;
-                node.Previous = tail;
-            }
-            tail = node;
-            if(current == null)
-            {
-                current = tail;
-            }
+            var el = new StackNode<T>(data);
+            el.Previous = Head;
+            Head = el;
             count++;
+            return Head.Data;
         }
-        public T GetCurrent()
-        {
-            return current.Data;
-        }
-        public T GetNext()
-        {
-            if(current == tail)
-            {
-                return default;
-            }
-            current = current.Next;
-            return current.Next.Data;
 
-        }
-        public T GetPrevious()
+        public T Pop()
         {
-            if(current == head)
+            if (count != 0)
             {
-                return default;
+                Head = Head.Previous;
+                count--;
+                if (count != 0)
+                {
+                    return Head.Data;
+                }
             }
-            current = current.Previous;
-            return current.Previous.Data;
+            return default(T);
         }
+
+        public T Peek()
+        {
+            if (count != 0)
+            {
+                return Head.Data;
+            }
+            return default(T);
+        }
+        public int Count()
+        {
+            return count;
+        }
+
+
+        
 
     }
 }
