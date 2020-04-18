@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "khA04An4OjC7Y/jV6h2qVQ8YE6S+21j/V9Y/MoDqLtxEb/dQb+cti73U54T1naTeEPXlvlNiGb2pPFpUNXKPHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\VladosKokos\\Documents\\Priga\\2020\\DT\\Csharp_testing1\\SolutionLibrary\\LinkedListSpace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VladosKokos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\VladosKokos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
