@@ -46,7 +46,7 @@ namespace TRPZ
             }
             return default(T);
         }
-        public int Count()
+        public int GetCount()
         {
             return count;
         }
