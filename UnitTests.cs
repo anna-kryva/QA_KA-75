@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace TRPZ
 {
-    
+    [TestFixture]
     public class Tests
     {
         
