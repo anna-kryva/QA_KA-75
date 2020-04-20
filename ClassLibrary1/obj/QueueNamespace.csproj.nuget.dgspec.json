@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj": {}
+    "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj": {}
   },
   "projects": {
-    "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj": {
+    "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj",
+        "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj",
         "projectName": "QueueNamespace",
-        "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj",
+        "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj",
         "packagesPath": "C:\\Users\\hanyf\\.nuget\\packages\\",
-        "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\obj\\",
+        "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hanyf\\AppData\\Roaming\\NuGet\\NuGet.Config",

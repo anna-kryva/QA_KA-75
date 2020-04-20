@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gYqwneTyUHadwOWkz9DbygiyEF9q12LoAUNls7lKuZMZ9re44mcQFWah27yZNdp7QRgboBRTKwDZFYZKthnvUw==",
+  "dgSpecHash": "8n+8wB7A83atealEEzLC+OkfYx20claEGHQQ12SCslAQEm5DNBKYo2Vg4AGtg1T+ICYJTG1P1DUAoNOklofP9g==",
   "success": true,
-  "projectFilePath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\QueueTests\\QueueTests.csproj",
+  "projectFilePath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueTests\\QueueAndCompareTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hanyf\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\hanyf\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

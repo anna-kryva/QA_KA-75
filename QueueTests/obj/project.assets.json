@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\QueueTests\\QueueTests.csproj",
-      "projectName": "QueueTests",
-      "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\QueueTests\\QueueTests.csproj",
+      "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueTests\\QueueAndCompareTests.csproj",
+      "projectName": "QueueAndCompareTests",
+      "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueTests\\QueueAndCompareTests.csproj",
       "packagesPath": "C:\\Users\\hanyf\\.nuget\\packages\\",
-      "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\QueueTests\\obj\\",
+      "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hanyf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4669,8 +4669,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj": {
-              "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\QueueImplementation\\ClassLibrary1\\QueueNamespace.csproj"
+            "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj": {
+              "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\Queue\\QA_KA-75\\ClassLibrary1\\QueueNamespace.csproj"
             }
           }
         }
