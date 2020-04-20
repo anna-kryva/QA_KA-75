@@ -1,6 +1,3 @@
-D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.csproj.CoreCompileInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.AssemblyInfoInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.AssemblyInfo.cs
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -92,6 +89,9 @@ D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netco
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netcoreapp3.1\QueueNamespace.dll
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\bin\Debug\netcoreapp3.1\QueueNamespace.pdb
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.csprojAssemblyReference.cache
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.csproj.CoreCompileInputs.cache
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.AssemblyInfoInputs.cache
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.AssemblyInfo.cs
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.csproj.CopyComplete
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.dll
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueTests\obj\Debug\netcoreapp3.1\QueueAndCompareTests.pdb
