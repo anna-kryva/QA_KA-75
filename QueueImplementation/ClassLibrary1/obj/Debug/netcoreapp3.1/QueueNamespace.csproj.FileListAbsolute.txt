@@ -1,9 +1,0 @@
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.deps.json
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.dll
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.pdb
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.csproj.CoreCompileInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.AssemblyInfoInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.AssemblyInfo.cs
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.dll
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.pdb
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.csprojAssemblyReference.cache
