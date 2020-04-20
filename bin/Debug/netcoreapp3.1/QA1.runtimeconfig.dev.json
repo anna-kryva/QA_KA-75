@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\dragula\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\dragula\\.nuget\\packages"
+    ]
+  }
+}
