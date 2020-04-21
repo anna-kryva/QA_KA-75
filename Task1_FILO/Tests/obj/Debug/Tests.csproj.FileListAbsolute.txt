@@ -1,0 +1,11 @@
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Debug/Tests.csprojAssemblyReference.cache
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Debug/Tests.csproj.CoreCompileInputs.cache
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/Tests.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/Tests.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/nunit.framework.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/nunit.framework.xml
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Debug/Tests.csproj.CopyComplete
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Debug/Tests.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Debug/Tests.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/Stack.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Debug/Stack.pdb
