@@ -1,0 +1,6 @@
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\bin\Debug\QueueImplementation_Framework.dll
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\bin\Debug\QueueImplementation_Framework.pdb
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\obj\Debug\QueueImplementation_Framework.csprojAssemblyReference.cache
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\obj\Debug\QueueImplementation_Framework.csproj.CoreCompileInputs.cache
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\obj\Debug\QueueImplementation_Framework.dll
+D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\QueueImplementation_Framework\QueueImplementation_Framework\obj\Debug\QueueImplementation_Framework.pdb
