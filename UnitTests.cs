@@ -84,14 +84,15 @@ namespace TRPZ
         [TestCase("1.2.3", "4.5.6", ExpectedResult = -1)]
         [TestCase("1", "1.0", ExpectedResult = 0)]
         [TestCase("1.1.0", "1.0.1", ExpectedResult = 1)]
+        [TestCase("1.2.3", "1.23", ExpectedResult = -1)]
         [TestCase("1.0.0.0.0.0.0.0.0.0", "1.0.0.0.0.0.0.0.0.0.0.0.0", ExpectedResult = 0)]
         [TestCase("1.0.0.0.0.0.0.0.0.0.0.0.0", "1.0.0.0.0.0.0.0.0.0", ExpectedResult = 0)]
         [TestCase("1.0.0.0.0.0.0.0.0.1", "1.0.0.0.0.0.0.0.0.0.0.0.1", ExpectedResult = 1)]
         [TestCase("1.0.0.0.0.0.0.0.0.0.0.0.1", "1.0.0.0.0.0.0.0.0.1", ExpectedResult = -1)]
         public int CompareVersions(string v1, string v2)
         {
-            v1 = v1.Replace(".", "");
-            v2 = v2.Replace(".", "");
+            v1 = v1.Replace(".", "0");
+            v2 = v2.Replace(".", "0");
             int diff = v1.Length - v2.Length;
 
             v2 = (diff > 0 ? v2 + String.Concat(Enumerable.Repeat("0", diff)) : v2);
