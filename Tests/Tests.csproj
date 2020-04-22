@@ -58,7 +58,7 @@
   <ItemGroup>
     <ProjectReference Include="..\List\List.csproj">
       <Project>{9b5d6db7-e11f-4fae-b6d4-1c1bb1b3ec43}</Project>
-      <Name>StackFramework</Name>
+      <Name>List</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
