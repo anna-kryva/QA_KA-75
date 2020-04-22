@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListSpace", "Solution
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListSpace.Tests", "LinkedListSpace.Tests\LinkedListSpace.Tests.csproj", "{008016D6-175A-4133-B141-5942C144CB3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionComparerSpace", "VersionComparerSpace\VersionComparerSpace.csproj", "{787856F4-581B-46B0-B58A-B953924ADC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersionComparerSpace", "VersionComparerSpace\VersionComparerSpace.csproj", "{787856F4-581B-46B0-B58A-B953924ADC65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionComparerSpace.Tests", "VersionComparerSpace.Tests\VersionComparerSpace.Tests.csproj", "{DF3B456F-D184-4075-B2F8-347E25774F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListSpace.Tests2", "UnitTestProject1\LinkedListSpace.Tests2.csproj", "{A57AC945-15EB-488D-BF29-0A74A8C2B9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionComparerSpace.Tests2", "VersionComparerSpace.Tests2\VersionComparerSpace.Tests2.csproj", "{6F1E4A82-5379-4BBF-B892-E767169816F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DF3B456F-D184-4075-B2F8-347E25774F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF3B456F-D184-4075-B2F8-347E25774F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF3B456F-D184-4075-B2F8-347E25774F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57AC945-15EB-488D-BF29-0A74A8C2B9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57AC945-15EB-488D-BF29-0A74A8C2B9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57AC945-15EB-488D-BF29-0A74A8C2B9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57AC945-15EB-488D-BF29-0A74A8C2B9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1E4A82-5379-4BBF-B892-E767169816F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1E4A82-5379-4BBF-B892-E767169816F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1E4A82-5379-4BBF-B892-E767169816F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1E4A82-5379-4BBF-B892-E767169816F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

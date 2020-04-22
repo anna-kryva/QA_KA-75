@@ -1,7 +1,6 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace LinkedListSpace.Tests
+namespace LinkedListSpace.Tests2
 {
     [TestClass]
     public class LinkedListTests

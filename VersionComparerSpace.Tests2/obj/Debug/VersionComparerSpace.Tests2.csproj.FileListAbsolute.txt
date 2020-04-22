@@ -1,0 +1,16 @@
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\VersionComparerSpace.Tests2.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\VersionComparerSpace.Tests2.pdb
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\VersionComparerSpace.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\VersionComparerSpace.pdb
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\obj\Debug\VersionComparerSpace.Tests2.csprojAssemblyReference.cache
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\obj\Debug\VersionComparerSpace.Tests2.csproj.CoreCompileInputs.cache
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\obj\Debug\VersionComparerSpace.Tests2.csproj.CopyComplete
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\obj\Debug\VersionComparerSpace.Tests2.dll
+C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace.Tests2\obj\Debug\VersionComparerSpace.Tests2.pdb
