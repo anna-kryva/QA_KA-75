@@ -1,0 +1,11 @@
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/Tests.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/Tests.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/nunit.framework.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/Stack.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/Stack.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/nunit.framework.xml
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.csprojAssemblyReference.cache
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.csproj.CoreCompileInputs.cache
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.csproj.CopyComplete
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.pdb
