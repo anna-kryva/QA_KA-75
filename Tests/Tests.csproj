@@ -56,7 +56,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QueueImplementation_Framework\StackFramework.csproj">
+    <ProjectReference Include="..\Stack_Framework\StackFramework.csproj">
       <Project>{9b5d6db7-e11f-4fae-b6d4-1c1bb1b3ec43}</Project>
       <Name>StackFramework</Name>
     </ProjectReference>
