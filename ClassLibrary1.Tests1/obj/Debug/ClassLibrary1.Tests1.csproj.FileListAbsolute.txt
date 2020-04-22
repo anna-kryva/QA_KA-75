@@ -1,0 +1,2 @@
+C:\Users\VladosKokos\Documents\Priga\2020\DT\SolutionLibrary\ClassLibrary1.Tests1\obj\Debug\ClassLibrary1.Tests1.csprojAssemblyReference.cache
+C:\Users\VladosKokos\Documents\Priga\2020\DT\SolutionLibrary\ClassLibrary1.Tests1\obj\Debug\ClassLibrary1.Tests1.csproj.CoreCompileInputs.cache

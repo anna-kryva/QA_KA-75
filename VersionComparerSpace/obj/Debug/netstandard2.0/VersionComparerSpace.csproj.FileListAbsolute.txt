@@ -1,9 +1,0 @@
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\bin\Debug\netstandard2.0\VersionComparerSpace.deps.json
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\bin\Debug\netstandard2.0\VersionComparerSpace.dll
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\bin\Debug\netstandard2.0\VersionComparerSpace.pdb
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.csprojAssemblyReference.cache
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.AssemblyInfoInputs.cache
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.AssemblyInfo.cs
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.dll
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.pdb
-C:\Users\VladosKokos\Documents\Priga\2020\DT\Csharp_testing1\VersionComparerSpace\obj\Debug\netstandard2.0\VersionComparerSpace.csproj.CoreCompileInputs.cache
