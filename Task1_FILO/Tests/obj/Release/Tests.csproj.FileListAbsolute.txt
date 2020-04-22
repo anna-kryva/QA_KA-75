@@ -9,3 +9,8 @@
 /home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.csproj.CopyComplete
 /home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.dll
 /home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/obj/Release/Tests.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/NUnit3.TestAdapter.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/NUnit3.TestAdapter.pdb
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/nunit.engine.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/nunit.engine.api.dll
+/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Tests/bin/Release/nunit.framework.pdb
