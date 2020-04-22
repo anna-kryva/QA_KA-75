@@ -11,12 +11,8 @@ namespace StackNamespace
         {
             v1 = v1.Replace(".", "0");
             v2 = v2.Replace(".", "0");
-            int diff = v1.Length - v2.Length;
 
-            v2 = (diff > 0 ? v2 + String.Concat(Enumerable.Repeat("0", diff)) : v2);
-            v1 = (diff < 0 ? v1 + String.Concat(Enumerable.Repeat("0", -diff)) : v1);
-
-            return String.Compare(v1, v2);
+            return String.Compare(v1.PadRight(v2.Length, '0'), v2.PadRight(v1.Length, '0'));
         }
     }
 }
