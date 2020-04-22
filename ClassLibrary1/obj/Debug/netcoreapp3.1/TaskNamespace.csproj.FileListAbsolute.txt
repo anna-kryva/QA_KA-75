@@ -1,0 +1,8 @@
+E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\TaskNamespace.deps.json
+E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\TaskNamespace.dll
+E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\TaskNamespace.pdb
+E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\TaskNamespace.csproj.CoreCompileInputs.cache
+E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\TaskNamespace.AssemblyInfoInputs.cache
+E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\TaskNamespace.AssemblyInfo.cs
+E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\TaskNamespace.dll
+E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\TaskNamespace.pdb
