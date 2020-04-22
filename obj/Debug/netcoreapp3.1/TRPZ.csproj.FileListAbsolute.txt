@@ -93,3 +93,4 @@ C:\Users\Berk\source\repos\QA_KA-75\obj\Debug\netcoreapp3.1\TRPZ.csproj.CopyComp
 C:\Users\Berk\source\repos\QA_KA-75\obj\Debug\netcoreapp3.1\TRPZ.dll
 C:\Users\Berk\source\repos\QA_KA-75\obj\Debug\netcoreapp3.1\TRPZ.pdb
 C:\Users\Berk\source\repos\QA_KA-75\obj\Debug\netcoreapp3.1\TRPZ.genruntimeconfig.cache
+C:\Users\Berk\source\repos\QA_KA-75\obj\Debug\netcoreapp3.1\TRPZ.csprojAssemblyReference.cache
