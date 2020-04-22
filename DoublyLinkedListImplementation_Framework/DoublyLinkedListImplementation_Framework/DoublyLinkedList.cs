@@ -2,8 +2,8 @@
 {
     public class DoublyLinkedList<T>
     {
-        public DoublyLinkedListNode<T> Head { get; set; }
-        public DoublyLinkedListNode<T> Last { get; set; }
+        private DoublyLinkedListNode<T> Head { get; set; }
+        private DoublyLinkedListNode<T> Last { get; set; }
 
         private DoublyLinkedListNode<T> Current { get; set; }
 
