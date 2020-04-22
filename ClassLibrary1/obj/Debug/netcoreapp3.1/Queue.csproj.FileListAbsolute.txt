@@ -1,9 +1,0 @@
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\Queue.deps.json
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\Queue.dll
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\bin\Debug\netcoreapp3.1\Queue.pdb
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.csprojAssemblyReference.cache
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.csproj.CoreCompileInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.AssemblyInfoInputs.cache
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.AssemblyInfo.cs
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.dll
-D:\универ\3 курс\testing)\c#\Queue\QueueImplementation\ClassLibrary1\obj\Debug\netcoreapp3.1\Queue.pdb
