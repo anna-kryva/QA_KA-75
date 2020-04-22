@@ -16,7 +16,7 @@ namespace Stack
 
         public T Peek()
         {
-            return Count > 0 ? _array[Count] : default;
+            return Count > 0 ? _array[Count] : default(T);
         }
 
         public T Pop()
