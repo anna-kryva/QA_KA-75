@@ -1,12 +1,10 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Functions;
 
-namespace MyLab
+namespace StackAndCompareTests
 {
     [TestFixture]
-    public class VersionsTests
+    class VersionsTests
     {
         [TestCase("1", "1.1", -1)]
         [TestCase("1.1.0", "1.0.1", 1)]

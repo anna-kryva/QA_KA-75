@@ -1,12 +1,11 @@
 using NUnit.Framework;
-using System;
-using System.Numerics;
-using System.Collections.Generic;
+using Functions;
 
-namespace MyLab 
+
+namespace StackTests
 {
     [TestFixture]
-    public class StackTests
+    class StackTests
     {
         Stack<string> emptyStack;
         Stack<string> filledStack;

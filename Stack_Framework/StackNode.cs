@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyLab
+namespace Functions
 {
-    public class StackNode<T>
+    class StackNode<T>
     {
         public T Data { get; set; }
         public StackNode<T> next { get; set; }

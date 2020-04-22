@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MyLab
-{
+namespace Functions {
     public class Stack<T>
     {
         StackNode<T> head;
