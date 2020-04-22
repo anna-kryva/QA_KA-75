@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Functions;
 
-namespace StackAndCompareTests
+namespace VersionsTests
 {
     [TestFixture]
     class VersionsTests
