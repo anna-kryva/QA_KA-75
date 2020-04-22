@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H8mvQ8lUKuk85d2IXzcTA9oXib5C813ztKrd4LYhgBLsrdIe0KivxwrfQRHhD/ggyj8w8kItSWn7FZZ0O5J27g==",
+  "dgSpecHash": "3jbdyTPZM1s+7kvDB3QZADnpl8aKX7L5Bff2pST7opfrttXyeUFMFlDLjBkFQY3CdIYNAwRF3ySuJZNojWBRWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dragula\\source\\repos\\QA1\\QA1\\QA1.csproj",
+  "projectFilePath": "C:\\Users\\dragula\\Documents\\GitHub\\QA_KA-75\\QA1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dragula\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\dragula\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

@@ -4633,11 +4633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dragula\\source\\repos\\QA1\\QA1\\QA1.csproj",
+      "projectUniqueName": "C:\\Users\\dragula\\Documents\\GitHub\\QA_KA-75\\QA1.csproj",
       "projectName": "QA1",
-      "projectPath": "C:\\Users\\dragula\\source\\repos\\QA1\\QA1\\QA1.csproj",
+      "projectPath": "C:\\Users\\dragula\\Documents\\GitHub\\QA_KA-75\\QA1.csproj",
       "packagesPath": "C:\\Users\\dragula\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dragula\\source\\repos\\QA1\\QA1\\obj\\",
+      "outputPath": "C:\\Users\\dragula\\Documents\\GitHub\\QA_KA-75\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dragula\\AppData\\Roaming\\NuGet\\NuGet.Config",
