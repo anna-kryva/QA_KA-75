@@ -24,12 +24,3 @@ D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\ClassLibrary1\obj\Debug\ne
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.AssemblyInfo.cs
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.dll
 D:\универ\3 курс\testing)\c#\Queue\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.pdb
-E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.deps.json
-E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.dll
-E:\GitCDCI\QA_KA-75\ClassLibrary1\bin\Debug\netcoreapp3.1\QueueNamespace.pdb
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.csprojAssemblyReference.cache
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.csproj.CoreCompileInputs.cache
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.AssemblyInfoInputs.cache
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.AssemblyInfo.cs
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.dll
-E:\GitCDCI\QA_KA-75\ClassLibrary1\obj\Debug\netcoreapp3.1\QueueNamespace.pdb

@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace TaskNamespace {
-   class StackNode<T>
+namespace TaskNamespace {   
+    public class StackNode<T>
     {
         public T Data { get; set; }
         public StackNode<T> next { get; set; }
