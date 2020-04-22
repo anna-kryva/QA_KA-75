@@ -7,8 +7,8 @@
     <ProjectGuid>{9B5D6DB7-E11F-4FAE-B6D4-1C1BB1B3EC43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QueueImplementation_Framework</RootNamespace>
-    <AssemblyName>QueueImplementation_Framework</AssemblyName>
+    <RootNamespace>Stack_Framework</RootNamespace>
+    <AssemblyName>Stack_Framework</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
