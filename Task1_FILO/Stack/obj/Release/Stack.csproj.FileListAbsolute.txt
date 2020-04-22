@@ -1,6 +1,0 @@
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/bin/Release/Stack.dll
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/bin/Release/Stack.pdb
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/obj/Release/Stack.csprojAssemblyReference.cache
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/obj/Release/Stack.csproj.CoreCompileInputs.cache
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/obj/Release/Stack.dll
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task1_FILO/Stack/obj/Release/Stack.pdb

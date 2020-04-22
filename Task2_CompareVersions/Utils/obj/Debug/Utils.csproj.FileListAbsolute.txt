@@ -1,6 +1,0 @@
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/bin/Debug/Utils.dll
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/bin/Debug/Utils.pdb
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/obj/Debug/Utils.csprojAssemblyReference.cache
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/obj/Debug/Utils.csproj.CoreCompileInputs.cache
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/obj/Debug/Utils.dll
-/home/vvrud/Projects/UNIVERSITY/TRPZ/QA_KA-75/Task2_CompareVersions/Utils/obj/Debug/Utils.pdb
