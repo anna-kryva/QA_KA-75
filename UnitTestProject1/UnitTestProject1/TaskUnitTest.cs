@@ -93,7 +93,7 @@ namespace UnitTestProject1
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             string atext = driver.FindElement(By.Id("id123-fielderror7209631")).GetAttribute("innerText");
            
-            Assert.IsTrue(atext.ToLower().Contains("expected input: email"), $"expected '{atext}' to contain 'expected input: email'");
+            Assert.IsTrue(atext.ToLower().Contains("expected input: email"), "expected to contain 'expected input: email'");
 
         }
 
@@ -112,7 +112,7 @@ namespace UnitTestProject1
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             string atext = driver.FindElement(By.Id("id123-fielderror7643121")).GetAttribute("innerText");
 
-            Assert.IsTrue(atext.ToLower().Contains("this field is required."), $"expected '{atext}' to contain 'this field is required.'");
+            Assert.IsTrue(atext.ToLower().Contains("this field is required."), "expected to contain 'this field is required.'");
             
         }
         
@@ -157,7 +157,7 @@ namespace UnitTestProject1
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             string atext = driver.FindElement(By.Id("login_error")).GetAttribute("innerText");
 
-            Assert.IsTrue(atext.ToLower().Contains("the password field is empty"), $"expected '{atext}' to contain 'The password field is empty'");
+            Assert.IsTrue(atext.ToLower().Contains("the password field is empty"), "expected to contain 'The password field is empty'");
 
         }
 
@@ -226,7 +226,7 @@ namespace UnitTestProject1
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             string atext = driver.FindElement(By.CssSelector("[name='mepr_mobile']")).GetAttribute("class");
             
-            Assert.IsTrue(atext.ToLower().Contains("invalid"), $"expected '{atext}' to contain 'invalid'");
+            Assert.IsTrue(atext.ToLower().Contains("invalid"), "expected to contain 'invalid'");
             
         }
 
@@ -254,7 +254,7 @@ namespace UnitTestProject1
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
             string atext = driver.FindElement(By.CssSelector("[name='mepr_date_of_birth']")).GetAttribute("class");
 
-            Assert.IsTrue(atext.ToLower().Contains("invalid"), $"expected '{atext}' to contain 'invalid'");
+            Assert.IsTrue(atext.ToLower().Contains("invalid"), "expected to contain 'invalid'");
 
         }
 
