@@ -3,7 +3,7 @@ const chrome = require('selenium-webdriver/chrome');
 const chromedriver = require('chromedriver');
 
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
-const URL = "https://www.sportlife.ua/uk/";
+const URL = "https://shop.sportlife.ua/ukraine2/Chain_sale?utm_source=sportlife.ua&utm_medium=header&utm_campaign=SLua-to-Shop&utm_term=top-all-pages";
 
 
 (async function example() {
@@ -13,9 +13,10 @@ const URL = "https://www.sportlife.ua/uk/";
         .build();
   try {
     await driver.get(URL);
-    const icon = await driver.findElement(By.xpath("//div[contains(@class, 'sl-social')]/a[2]"));
-    await icon.click();
-    await driver.wait(until.elementsLocated(By.id("u_0_0")), 10000);
+    //*[@id="mfilter-content-opts-0-0"]/div/div/ul/li[4]/div[1]/a
+    await driver.wait(until.elementLocated(By.id("mfilter-content-opts-0-0")), 100000);
+    // const filter = await driver.findElement(By.xpath("//a[@data-id='593']"));
+    // await filter.click();
     
     
   } catch (error) {

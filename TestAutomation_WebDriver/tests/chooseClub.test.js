@@ -14,13 +14,18 @@ describe("Choose the club from a list", () => {
       .withCapabilities(Capabilities.chrome())
       .build();
 
-  it("should be true", async () => {
+  it("should mouse over menu tab", async () => {
     await driver.get(URL);
     const actions = driver.actions({async: true});
 
     const menuTab = await driver.findElement(By.id('menu-item-clubs'));
-    actions.move({origin: menuTab}).perform();
+    actions.move({origin: menuTab}).perform();    
 
+    const isDisplayed = await (await driver.findElement(By.id("main-submenu-clubs"))).isDisplayed();
+    chai.expect(isDisplayed).to.be.true;
+  });
+
+  it("should click on menu item and go to the club page", async () => {
     const subMenu = await driver.findElement(By.xpath("//*[@id='main-submenu-clubs']/div/div[1]/div[2]/div[2]/div[5]/a"));
     await subMenu.click();
 

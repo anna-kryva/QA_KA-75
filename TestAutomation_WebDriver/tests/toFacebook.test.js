@@ -13,17 +13,28 @@ describe("Redirect to Facebook", () => {
       .forBrowser("chrome")
       .withCapabilities(Capabilities.chrome())
       .build();
+      
+  let fbImage;
 
-  it("should be true", async () => {
+  it("should find the icon", async () => {
     await driver.get(URL);
-    // /html/body/div[2]/div/div[4]/div/div[2]/div[2]/a[2]/img
-    await (await driver.findElement(By.xpath("//div[contains(@class, 'sl-social')]//a[2]/img"))).click();
-    // await driver.wait(until.elementsLocated(By.id("u_0_0")), 20000);
-    // const text = await (await driver.findElement(By.id("u_0_0"))).getText();
+    fbImage = await driver.findElement(By.xpath("//div[contains(@class, 'sl-social')]//a[2]/img"));
 
-    // const expected = "SPORT LIFE";
-    // // const actual = await driver.getCurrentUrl();
-    // chai.assert.equal(expected, text);
+    const expected = "https://www.sportlife.ua/sites/default/files/icons-social/icon-fb-2.jpg";
+    const actual = await fbImage.getAttribute("src");
+    chai.assert.equal(expected, actual);
+  });
+
+  it("should click the image and go to the facebook page", async () => {
+    await fbImage.click();
+
+    const windowTabs = await driver.getAllWindowHandles();
+    await driver.switchTo().window(windowTabs[1]);
+    await driver.wait(until.urlIs("https://www.facebook.com/sportlifeua"), 2000);
+
+    const expected = "https://www.facebook.com/sportlifeua";
+    const actual = await driver.getCurrentUrl();
+    chai.assert.equal(expected, actual);
   });
 
   after(async () => { await driver.quit()});
