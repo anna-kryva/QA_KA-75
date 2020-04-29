@@ -4,7 +4,7 @@
   "description": "Automated testing the website www.sportlife.ua  with Selenium WebDriver and Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha tests/bathhouseWorker.test.js --timeout 100000"
+    "test": "node ./node_modules/mocha/bin/mocha tests/filter.test.js --timeout 100000"
   },
   "repository": {
     "type": "git",

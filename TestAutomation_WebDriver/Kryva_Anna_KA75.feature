@@ -93,14 +93,14 @@ Scenario: Empty Bathhouse Worker List
 	Then I shoud see empty list
 
 #8
-Feature: SpaSidebar
-	In order to learn about spa
+Feature: SubmitForm
+	In order to buy a gym membership
 	As a customer
-	I want to see detailed information about massage salon
+	I want to fill the form and submit
 
 @spa
 Scenario: Massage Salon
-	Given I on the spa page
-	And there is a sidebar on the right
-	When I click on "Масажний салон"
-	Then the result is a massage salon page
+	Given I am on the shop page
+	When I fill the form
+	And submit it
+	Then the result is a liqpay page
