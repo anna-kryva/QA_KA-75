@@ -16,7 +16,7 @@ describe("Looking for staff", () => {
 
   let anchor;
 
-  it("should be equal", async () => {
+  it("should get the link", async () => {
     await driver.get(URL);
     anchor = await driver.findElement(
       By.xpath("//div[contains(@class, 'jobs-list hot')]/ul/li[1]/a")
@@ -27,7 +27,7 @@ describe("Looking for staff", () => {
     chai.assert.equal(expected, actual);
   });
 
-  it("should be true", async () => {
+  it("should click and get the list of vacancies", async () => {
     await anchor.click();
 
     await driver.wait(

@@ -39,23 +39,16 @@ Scenario: Redirect to Facebook
 	Then I should be redirected to the facebook page
 
 #4
-Feature: FilterMembership
-	In order to select a membership
+Feature: SelectClubTriners
+	In order to select a coach
 	As a customer
-	I want to filter features and see appropriate memberships
+	I want to choose a club from menu
 
 @membership
-Scenario: Filter features
-	Given I am on the shop page
-	And I see the sidebar with filter and features
-	When I choose Dnipro city
-	And I choose Priozernyi
-	Then the result should be 3 memberships with titles:
-	"""
-	CLASSIC ПОВНОГО ДНЯ
-	CLASSIC + БАСЕЙН ПОВНОГО ДНЯ
-	PREMIUM ПОВНОГО ДНЯ
-	"""
+Scenario: Select club
+	Given I am on the trainers page
+	When I choose club Priozernyi
+	Then I should see the coach list
 
 #5
 Feature: LookingForStaff
@@ -88,17 +81,16 @@ Scenario: Click on the Link
 	Then the result should be list of cities with clubs
 
 #7
-Feature: RedirectToTv
-	In order to see the timetable of workouts
+Feature: EmptyTable
+	In order to see the lis of trainers
 	As a client
-	I shoud be redirected to the page with online workouts timetable
+	I shoud be able to choose workout category
 
 @mytag
-Scenario: Online workout timetable
-	Given I have hovered the navbar tab "Сервіси для клієнтів"
-	And I see a dropdown list
-	When I press "Розклад занять"
-	Then I shoud be redirected to tv.sportlife.ua page with the online workouts timetable
+Scenario: Empty Bathhouse Worker List 
+	Given I on the trainers page with the selected club Pryozernyi
+	When I click on the Bathhouse worker tab
+	Then I shoud see empty list
 
 #8
 Feature: SpaSidebar

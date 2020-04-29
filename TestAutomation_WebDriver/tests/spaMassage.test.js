@@ -6,28 +6,19 @@ const chai = require("chai");
 
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
-const URL = "https://www.sportlife.ua/uk/fitness/15966";
+const URL = "https://www.sportlife.ua/uk/beauty_health/spa";
 
-describe("Choose the club from a list", () => {
+describe("Go to massage salon page", () => {
   const driver = new Builder()
       .forBrowser("chrome")
       .withCapabilities(Capabilities.chrome())
       .build();
 
-  let clubsLink;
-  it("should be link at the bottom", async () => {
+  it("should go to massage salon page", async () => {
     await driver.get(URL);
-    clubsLink = await driver.findElement(By.xpath("//p[@class='bottom-link']//a"));
+    await (await driver.findElement(By.xpath("//div[@class='b-side-menu']/ul/li[5]/div"))).click();
 
-    const expected = "Плавай";
-    const actual = await clubsLink.getText();
-    chai.assert.equal(expected, actual);
-  });
-
-  it("should click and go to the clubs page", async () => {
-    await clubsLink.click();
-
-    const expected = "https://www.sportlife.ua/uk/clubs";
+    const expected = "https://www.sportlife.ua/uk/beauty_health/massage_salon";
     const actual = await driver.getCurrentUrl();
     chai.assert.equal(expected, actual);
   });
