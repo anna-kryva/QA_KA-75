@@ -17,7 +17,7 @@ describe("Find games with filters", () => {
     await (await driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[4]/div[1]/div[2]/div[1]/div[2]/a[9]"))).click();
     await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/div[1]/div[3]/div[4]/div/div[2]/div[2]/a[2]'))).click();
     const expected = 'The Elder Scrolls® Online';
-    const actual = await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[1]/div[3]/div/div[3]/a[1]/div[2]/div[1]/span'))).getText();
+    const actual = await (await driver.findElement(By.xpath('//*[@id="search_resultsRows"]/a[1]/div[2]/div[1]/span'))).getText();
 
     
     chai.assert.equal(expected, actual);

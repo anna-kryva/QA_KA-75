@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="3.5020" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-04-30T19:13:33" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="3.8330" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T19:33:08" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Add game to cart" timestamp="2020-04-30T19:13:33" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/addGameToCart.test.js" time="3.5020" failures="0">
-    <testcase name="Add game to cart Add to cart" time="3.5020" classname="Add to cart">
+  <testsuite name="Add game to cart" timestamp="2020-04-30T19:33:08" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/addGameToCart.test.js" time="3.8330" failures="0">
+    <testcase name="Add game to cart Add to cart" time="3.8330" classname="Add to cart">
     </testcase>
   </testsuite>
 </testsuites>

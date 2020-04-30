@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.0560" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-04-30T19:13:12" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="2.9930" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T19:32:45" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Go to main page via the logo" timestamp="2020-04-30T19:13:12" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/toMainPage.test.js" time="2.0560" failures="0">
-    <testcase name="Go to main page via the logo should click on the logo and redirect to main page" time="2.0560" classname="should click on the logo and redirect to main page">
+  <testsuite name="Go to main page via the logo" timestamp="2020-04-30T19:32:45" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/toMainPage.test.js" time="2.9930" failures="0">
+    <testcase name="Go to main page via the logo should click on the logo and redirect to main page" time="2.9930" classname="should click on the logo and redirect to main page">
     </testcase>
   </testsuite>
 </testsuites>

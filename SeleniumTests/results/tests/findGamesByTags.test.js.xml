@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.6220" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-04-30T19:34:09" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Find game with tags and filters" timestamp="2020-04-30T19:34:09" tests="2" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/findGamesByTags.test.js" time="0.6220" failures="2">
+    <testcase name="Find game with tags and filters should find game by tag" time="0.3140" classname="should find game by tag">
+      <failure message="element not interactable
+  (Session info: chrome=81.0.4044.129)" type="ElementNotInteractableError"><![CDATA[ElementNotInteractableError: element not interactable
+  (Session info: chrome=81.0.4044.129)
+    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:565:13)
+    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:491:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:700:17)
+    at async Context.<anonymous> (tests/findGamesByTags.test.js:21:5)]]></failure>
+    </testcase>
+    <testcase name="Find game with tags and filters should find game by tags" time="0.3080" classname="should find game by tags">
+      <failure message="element not interactable
+  (Session info: chrome=81.0.4044.129)" type="ElementNotInteractableError"><![CDATA[ElementNotInteractableError: element not interactable
+  (Session info: chrome=81.0.4044.129)
+    at Object.throwDecodedError (node_modules/selenium-webdriver/lib/error.js:550:15)
+    at parseHttpResponse (node_modules/selenium-webdriver/lib/http.js:565:13)
+    at Executor.execute (node_modules/selenium-webdriver/lib/http.js:491:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Driver.execute (node_modules/selenium-webdriver/lib/webdriver.js:700:17)
+    at async Context.<anonymous> (tests/findGamesByTags.test.js:35:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
