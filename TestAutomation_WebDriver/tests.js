@@ -1,8 +1,8 @@
+const chromedriver = require("chromedriver");
+const chrome = require("selenium-webdriver/chrome");
 const { Builder, Capabilities } = require("selenium-webdriver");
 const config = require("./config.json");
 const Mocha = require("mocha");
-const chrome = require("selenium-webdriver/chrome");
-const chromedriver = require("chromedriver");
 
 
 let asyncForEach = async (arr, cb) => {
