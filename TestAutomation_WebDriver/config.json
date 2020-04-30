@@ -1,0 +1,24 @@
+{
+    "tests": [
+      {
+        "file": "./tests/toMainPage.test.js",
+        "timeout": 30000
+      },
+      {
+        "file": "./tests/toFacebook.test.js",
+        "timeout": 30000
+      },
+      {
+        "file": "./tests/findGame.test.js",
+        "timeout": 30000
+      },
+      {
+        "file": "./tests/addGameToCart.test.js",
+        "timeout": 30000
+      },
+      {
+        "file": "./tests/findGameWithFilters.test.js",
+        "timeout": 30000
+      }
+    ]
+}
