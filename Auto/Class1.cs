@@ -87,6 +87,7 @@ namespace Auto
             driver.FindElementByCssSelector("input[id='login']").SendKeys("qwerty@qwerty.com");
             System.Threading.Thread.Sleep(2000);
             driver.FindElementByCssSelector("input[id = submitFormRec]").Click();
+            System.Threading.Thread.Sleep(2000);
             Assert.IsTrue(driver.SwitchTo().Alert().Text.Contains("Отметь"));
             driver.SwitchTo().Alert().Accept();
         }
