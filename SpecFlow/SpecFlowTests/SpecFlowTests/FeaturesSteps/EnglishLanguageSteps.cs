@@ -2,6 +2,7 @@
 using TechTalk.SpecFlow;
 using OpenQA.Selenium.Chrome;
 using NUnit.Framework;
+using System.Threading;
 
 namespace SpecFlowTests.FeaturesSteps
 {
@@ -20,7 +21,7 @@ namespace SpecFlowTests.FeaturesSteps
         public void WhenIHavePressedAnEnglishTranslationButton()
         {
             driver.FindElementByCssSelector(".lang:nth-child(1)").Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            Thread.Sleep(5000);
         }
         
         [Then(@"the truslated webpage should be shown")]
