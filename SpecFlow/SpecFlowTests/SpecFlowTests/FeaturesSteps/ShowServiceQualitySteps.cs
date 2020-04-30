@@ -72,7 +72,7 @@ namespace SpecFlowTests.FeaturesSteps
         {
             var id = "ctl00_ctl34_g_fdb365db_d30e_48e5_bb89_aeac13ecb127_ctl00_ctl04_ctl00";
             driver.FindElementById(id).Click();
-            Thread.Sleep(45000);
+            Thread.Sleep(60000);
         }
         
         [Then(@"the statistics and marks of quality of '(.*)' should be showen")]
