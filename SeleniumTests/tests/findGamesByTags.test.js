@@ -20,7 +20,7 @@ describe("Find game with tags and filters", () => {
     const rpgTag = await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[2]/div[2]/div[2]/div/div[6]'));
     await rpgTag.click();
 
-    await driver.wait(until.elementLocated(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[1]/div[3]/div/div[3]/a[1]/div[2]/div[1]/span')),1000);
+    await driver.wait(until.elementLocated(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[1]/div[3]/div/div[3]/a[1]/div[2]/div[1]/span')),10000);
     const expected = 'Borledlands 3';
     const actual = await( await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[1]/div[3]/div/div[3]/a[1]/div[2]/div[1]/span'))).getText();
 

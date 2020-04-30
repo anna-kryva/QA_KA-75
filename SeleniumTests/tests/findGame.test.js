@@ -30,7 +30,7 @@ describe("Find game by name", () => {
       await driver.findElement(By.xpath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span')).click();
     }
 
-    await driver.wait(until.urlIs('https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'), 5000);
+    await driver.wait(until.urlIs('https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'), 10000);
     
     const findedGameName = await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/div[1]/div[2]/div[2]/div[2]/div/div[3]'));
     const expected = 'The Elder Scrolls V: Skyrim Special Edition';

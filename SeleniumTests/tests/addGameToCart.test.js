@@ -19,7 +19,7 @@ describe("Add game to cart", () => {
       await driver.findElement(By.xpath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span')).click();
     }
 
-    await driver.wait(until.urlIs('https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'), 5000);
+    await driver.wait(until.urlIs('https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'), 10000);
 
     const addToCart = await driver.findElement(By.xpath('//*[@id="btn_add_to_cart_110687"]'));
     await addToCart.click();

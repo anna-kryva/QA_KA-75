@@ -27,7 +27,7 @@ describe("Redirect to Facebook", () => {
 
     const windowTabs = await driver.getAllWindowHandles();
     await driver.switchTo().window(windowTabs[1]);
-    await driver.wait(until.urlIs("https://www.facebook.com/Steam"), 2000);
+    await driver.wait(until.urlIs("https://www.facebook.com/Steam"), 10000);
 
     const expected = "https://www.facebook.com/Steam";
     const actual = await driver.getCurrentUrl();

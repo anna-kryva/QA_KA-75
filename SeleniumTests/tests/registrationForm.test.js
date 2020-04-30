@@ -26,7 +26,7 @@ describe("Join to steam (Test capcha)))", () => {
     const agree  = await driver.findElement(By.id('i_agree_check'));
     agree.click();
     
-    await driver.wait(()=>{return true;},1000);
+    await driver.wait(()=>{return true;},10000);
     // const capcha = await driver.findElement(By.xpath('//*[@id="recaptcha-anchor"]'));
     // capcha.click();
     chai.assert.equal(0,0);
