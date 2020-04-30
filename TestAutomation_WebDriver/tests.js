@@ -13,13 +13,16 @@ let asyncForEach = async (arr, cb) => {
 
 (async () => {
   await asyncForEach(config.tests, async (testCase) => {
-    // chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
     global.driver = await new Builder()
         .forBrowser("chrome")
         .build();
 
     const mocha = new Mocha({
       timeout: testCase.timeout,
+      reporter: 'mocha-junit-reporter',
+      reporterOptions: {
+          mochaFile: `./results/${testCase.file}.xml`
+      }
     });
 
     return new Promise((resolve, reject) => {

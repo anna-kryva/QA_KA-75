@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.8740" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T13:20:43" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Fill the form to pay" timestamp="2020-04-30T13:20:43" tests="1" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_WebDriver\tests\submitForm.test.js" time="3.8740" failures="0">
+    <testcase name="Fill the form to pay should redirect to liqpay" time="3.8740" classname="should redirect to liqpay">
+    </testcase>
+  </testsuite>
+</testsuites>

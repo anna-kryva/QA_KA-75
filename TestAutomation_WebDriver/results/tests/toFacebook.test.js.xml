@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.5360" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T13:19:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Redirect to Facebook" timestamp="2020-04-30T13:19:47" tests="2" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_WebDriver\tests\toFacebook.test.js" time="11.5360" failures="0">
+    <testcase name="Redirect to Facebook should find the icon" time="0.0300" classname="should find the icon">
+    </testcase>
+    <testcase name="Redirect to Facebook should click the image and go to the facebook page" time="11.5060" classname="should click the image and go to the facebook page">
+    </testcase>
+  </testsuite>
+</testsuites>

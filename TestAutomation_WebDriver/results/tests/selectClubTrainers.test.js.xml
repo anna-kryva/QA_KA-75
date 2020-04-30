@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.0620" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T13:20:06" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Choose club" timestamp="2020-04-30T13:20:06" tests="2" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_WebDriver\tests\selectClubTrainers.test.js" time="3.0620" failures="0">
+    <testcase name="Choose club the submenu should be visible" time="0.1060" classname="the submenu should be visible">
+    </testcase>
+    <testcase name="Choose club should choose club" time="2.9560" classname="should choose club">
+    </testcase>
+  </testsuite>
+</testsuites>

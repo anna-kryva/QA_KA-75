@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.4450" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T13:19:27" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Go to main page via the logo" timestamp="2020-04-30T13:19:27" tests="1" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_WebDriver\tests\toMainPage.test.js" time="1.4450" failures="0">
+    <testcase name="Go to main page via the logo should click on the logo and redirect to main page" time="1.4450" classname="should click on the logo and redirect to main page">
+    </testcase>
+  </testsuite>
+</testsuites>

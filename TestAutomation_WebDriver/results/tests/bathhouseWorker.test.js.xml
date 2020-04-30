@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.2860" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T13:20:35" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Select a bathhouseworker tab" timestamp="2020-04-30T13:20:35" tests="1" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_WebDriver\tests\bathhouseWorker.test.js" time="1.2860" failures="0">
+    <testcase name="Select a bathhouseworker tab list should be empty" time="1.2860" classname="list should be empty">
+    </testcase>
+  </testsuite>
+</testsuites>
