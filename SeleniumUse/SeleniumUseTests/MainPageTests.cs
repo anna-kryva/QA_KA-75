@@ -24,16 +24,14 @@ namespace SeleniumUseTests
             options.AddArgument("start-maximized");
             driver = new ChromeDriver(options);
             driver.Navigate().GoToUrl(_url);
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            wait = new WebDriverWait(driver, new TimeSpan(0,0,20));
 
+            wait = new WebDriverWait(driver, new TimeSpan(0,0,20));
             wait.Until(d => d.Url == _url); 
         }
         [Test]
         public void TestLink()
         {
-            driver.Navigate().GoToUrl("https://www.unian.net/search?q=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&token=xLXMPYRZKVfm0icDmziXmxMU2iy_9QKbcBdeh0lf4Co&search_date=17.04.2020+-+17.04.2020&rubric_id=&news_title_only=1");
-            
+            driver.Navigate().GoToUrl("https://www.unian.net/search?q=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0&token=xLXMPYRZKVfm0icDmziXmxMU2iy_9QKbcBdeh0lf4Co&search_date=17.04.2020+-+17.04.2020&rubric_id=&news_title_only=1");           
         }
 
         [TestCase("Послуги")]
@@ -95,22 +93,27 @@ namespace SeleniumUseTests
         {
             bool are_equal=true;
             string message="";
-            
+            IWebElement search_field;
+            IWebElement search_date;
+
+            //set search-word and search-date
+
             driver.FindElement(By.CssSelector(".text-right button")).Click();
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.CssSelector(".result-form__search input[name=q]")));
-            IWebElement search_field = driver.FindElement(By.CssSelector(".result-form__search input[name=q]"));
+            search_field = driver.FindElement(By.CssSelector(".result-form__search input[name=q]"));
             search_field.SendKeys(item);
             driver.FindElement(By.CssSelector("label[for=searchCheck2]")).Click();
-
-            IWebElement search_date = driver.FindElement(By.CssSelector("[name=search_date]"));
+            search_date = driver.FindElement(By.CssSelector("[name=search_date]"));
             search_date.SendKeys(String.Concat(date," - ",date));
             search_field.FindElement(By.XPath("../button")).Click();
+
+            //Check every result item using collection
 
             IList<IWebElement> search_results =  driver.FindElements(By.ClassName("news-inline-item"));
             foreach(IWebElement e in search_results)
             {
                 string item_result = e.FindElement(By.ClassName("search--query")).Text;
-                if (item.Contains(item_result.Substring(0,item_result.Length-2).ToLower()))
+                if (item.Contains(item_result.Substring(0,item_result.Length-1).ToLower()))
                 {
                     string item_date_result = e.FindElement(By.ClassName("time")).Text;
                     if (!item_date_result.Contains(Help.ReplaceMonth(date)))
@@ -123,7 +126,7 @@ namespace SeleniumUseTests
                 else
                 {
                     are_equal = false;
-                    message = String.Format("The search result expected to be {0}", item);
+                    message = String.Format("The search result expected to be {0},but was - {1}", item,item_result);
                     break;
                 }                                
             }
@@ -137,7 +140,8 @@ namespace SeleniumUseTests
         public void PopUpWindowCloseButton_WhenBrowserWidthChange_ShouldBeAccessible(string category,int width)
         {
             bool is_displayed = true;
-            
+
+            //Navigate to necessary category
             IWebElement need_category= driver.FindElement(By.ClassName("main-menu")).FindElement(By.XPath(".//*[contains(text(),'" + category + "')]"));
             try
             {
@@ -146,13 +150,15 @@ namespace SeleniumUseTests
             catch(NoSuchElementException)
             {                
                 need_category.Click();
-            }             
+            }
+            
             driver.Manage().Window.Size = new System.Drawing.Size(width, 840);
             try
             {
                 driver.FindElement(By.ClassName("api-gpt-close-btn")).Click();
             }
             catch(NoSuchElementException) {}
+
             try
             {
                 wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(By.ClassName("cookies__close")));
@@ -187,6 +193,7 @@ namespace SeleniumUseTests
                     check_word = "Agree!";
                     break;
             }
+            //Navigate to category
             need_category = driver.FindElement(By.ClassName("main-menu")).FindElement(By.XPath(".//*[contains(text(),'" + category + "')]"));
             try
             {
@@ -196,6 +203,8 @@ namespace SeleniumUseTests
             {
                 need_category.Click();
             }
+
+            //Change language
             try
             {
                 lang_link = driver.FindElement(By.XPath("//*[@class='dropdown']/a"));
@@ -206,19 +215,18 @@ namespace SeleniumUseTests
                     lang_link.FindElement(By.XPath("../ul//a[contains(text(),'" + lang + "')]")).Click();
                 }
             }
-            catch(NoSuchElementException)
+            catch(NoSuchElementException)//Category page design differs
             {
 
-                check_word = lang == "Рус" ? "Принять" : check_word;
+                check_word = lang == "Рус" ? "Принять" : check_word;//ask person responsible for content
                 IJavaScriptExecutor je = (IJavaScriptExecutor)driver;
 
-                wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("cookies__close")));
-                
+                wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("cookies__close")));               
                 je.ExecuteScript("arguments[0].click();", driver.FindElement(By.ClassName("cookies__close")));
+
                 lang_link = driver.FindElement(By.XPath("//li[@class=' language']//*[contains(text(),'"+lang+"')]"));
                 try
-                {
-                    
+                {                   
                     je.ExecuteScript("arguments[0].scrollIntoView(true);", lang_link);
                     lang_link.Click();
                 }
@@ -247,21 +255,26 @@ namespace SeleniumUseTests
             comment_icon = driver.FindElements(By.ClassName("comment"))[1];
             je.ExecuteScript("arguments[0].scrollIntoView(true);", comment_icon);
             comment_icon.Click();
+
+            //Close advertisement
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.ClassName("api-gpt-close-btn")));
             driver.FindElement(By.ClassName("api-gpt-close-btn")).Click();
+
             comment_area = driver.FindElement(By.CssSelector(".new-comment textarea"));
             comment_area.SendKeys("some text");
             driver.FindElement(By.CssSelector(".buttons button[type='submit']")).Click();
+
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.Id("auth-widget")));
             auth_window_opened = driver.FindElement(By.Id("auth-widget")).Displayed;
-            Assert.IsTrue(auth_window_opened, "Authorization window is exepected to be opened");
+            Assert.IsTrue(auth_window_opened, "Authorization window is expected to be opened");
         }
 
         [TestCase("Facebook", "https://www.facebook.com/UNIAN.net/")]
         [TestCase("Telegram", "https://t.me/uniannet")]
-        public void FacebookLinkIsOpenedInAnotherTab(string link_name,string link_url)
+        public void SocialLinkIsOpenedInAnotherTab(string link_name,string link_url)
         {
             string result_url;
+
             IWebElement links = driver.FindElement(By.CssSelector(".social"));
             links.Click();
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.CssSelector(".social ul")));
@@ -271,7 +284,7 @@ namespace SeleniumUseTests
             result_url = driver.Url;
             driver.Close();
             driver.SwitchTo().Window(driver.WindowHandles[0]);
-            Assert.AreEqual(link_url, result_url, "Opened page is not related to УНИАН Facebook");
+            Assert.AreEqual(link_url, result_url, String.Format("Opened page is not related to УНИАН {0}",link_name));
         }
 
 
