@@ -25,10 +25,16 @@ namespace SeleniumNUnit
             driver.Navigate().GoToUrl(_url);
             wait = new WebDriverWait(driver, new TimeSpan(0, 0, 20));
 
-            wait.Until(d => d.Url == _url);
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.UrlContains(_url));
         }
 
-        [TestCase("examplemail.com")]
+		[TearDown]
+		public void close_Browser()
+		{
+			driver.Quit();
+		}
+
+		[TestCase("examplemail.com")]
         public void InvalidEmail(string email)
         {
             driver.Navigate().GoToUrl("https://app.pipedrive.com/auth/login");
@@ -38,7 +44,7 @@ namespace SeleniumNUnit
             email_field.SendKeys(email);
             login_button.Click();
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.TextToBePresentInElement(email_error_field, "Please add a valid email address"));
-            Assert.AreEqual("Pleaseaddavalidemailaddress", email_error_field.Text);
+			Assert.AreEqual("Please add a valid email address", email_error_field.Text);
         }
 
 		[TestCase("@email.com")]
@@ -51,7 +57,7 @@ namespace SeleniumNUnit
 			email_field.SendKeys(email);
 			login_button.Click();
 			wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.TextToBePresentInElement(email_error_field, "Please add a valid email address"));
-			Assert.AreEqual("Pleaseaddavalidemailaddress", email_error_field.Text);
+			Assert.AreEqual("Please add a valid email address", email_error_field.Text);
 		}
 
 		[TestCase("qwe@emailcom")]
@@ -63,9 +69,9 @@ namespace SeleniumNUnit
 			email_field.SendKeys(email);
 			got_a_new_button.Click();
 			wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists(By.XPath("/html/body/div/div/div[1]/div[2]/div[1]/div/h1")));
-			IWebElement check_inbox = driver.FindElement(By.XPath("driver.FindElement"));
+			IWebElement check_inbox = driver.FindElement(By.XPath("/html/body/div/div/div[1]/div[2]/div[1]/div/h1"));
 			wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.TextToBePresentInElement(check_inbox, "Check your inbox"));
-			Assert.AreNotEqual("Checkyourinbox", check_inbox.Text);
+			Assert.AreNotEqual("Check your inbox", check_inbox.Text);
 		}
 
 		[Test]
@@ -94,8 +100,8 @@ namespace SeleniumNUnit
             driver.Navigate().GoToUrl("https://www.pipedrive.com/");
             IWebElement try_it_free_button = driver.FindElement(By.XPath("/html/body/div/div[1]/div/div[1]/div[2]/div[1]"));
             try_it_free_button.Click();
-            IWebElement sing_up_popup = driver.FindElement(By.XPath("/html/body/div/div[7]/div[2]/div[1]"));
-            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div/div[7]/div[2]/div[1]")));
+            IWebElement sing_up_popup = driver.FindElement(By.XPath("/html/body/div/div[8]/div[2]/div[1]"));
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div/div[8]/div[2]/div[1]")));
             Assert.IsTrue(sing_up_popup.Displayed);
         }
 
