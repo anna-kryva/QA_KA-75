@@ -4,20 +4,18 @@ const chromedriver = require("chromedriver");
 
 const chai = require("chai");
 
-chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
-
 const URL = "https://www.sportlife.ua/uk/";
 
 describe("Redirect to Facebook", () => {
-  const driver = new Builder()
-      .forBrowser("chrome")
-      .withCapabilities(Capabilities.chrome())
-      .build();
+  const driver = global.driver;
       
   let fbImage;
 
-  it("should find the icon", async () => {
+  before(async () => {
     await driver.get(URL);
+  });
+
+  it("should find the icon", async () => {
     fbImage = await driver.findElement(By.xpath("//div[contains(@class, 'sl-social')]//a[2]/img"));
 
     const expected = "https://www.sportlife.ua/sites/default/files/icons-social/icon-fb-2.jpg";

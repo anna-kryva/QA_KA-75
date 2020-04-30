@@ -4,20 +4,19 @@ const chromedriver = require("chromedriver");
 
 const chai = require("chai");
 
-chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
 
 const URL = "https://www.sportlife.ua/uk/about/lookingforstaff";
 
 describe("Looking for staff", () => {
-  const driver = new Builder()
-    .forBrowser("chrome")
-    .withCapabilities(Capabilities.chrome())
-    .build();
+  const driver = global.driver;
 
   let anchor;
 
-  it("should get the link", async () => {
+  before(async () => {
     await driver.get(URL);
+  });
+
+  it("should get the link", async () => {
     anchor = await driver.findElement(
       By.xpath("//div[contains(@class, 'jobs-list hot')]/ul/li[1]/a")
     );

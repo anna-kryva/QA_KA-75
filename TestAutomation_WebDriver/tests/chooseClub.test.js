@@ -4,18 +4,16 @@ const chromedriver = require("chromedriver");
 
 const chai = require("chai");
 
-chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
-
 const URL = "https://www.sportlife.ua/uk/";
 
 describe("Choose the club from a list", () => {
-  const driver = new Builder()
-      .forBrowser("chrome")
-      .withCapabilities(Capabilities.chrome())
-      .build();
+  const driver = global.driver;
+
+  before(async () => {
+    await driver.get(URL);
+  });
 
   it("should mouse over menu tab", async () => {
-    await driver.get(URL);
     const actions = driver.actions({async: true});
 
     const menuTab = await driver.findElement(By.id('menu-item-clubs'));
