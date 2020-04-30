@@ -48,6 +48,7 @@ namespace SeleniumNUnit
         }
 
 		[TestCase("@email.com")]
+		[TestCase("email.com@")]
 		public void InvalidEmailAdvanced(string email)
 		{
 			driver.Navigate().GoToUrl("https://app.pipedrive.com/auth/login");
