@@ -22,7 +22,7 @@ namespace KaggleSeleniumTesting
             _password = Environment.GetEnvironmentVariable("PASSWORD_KAGGLE");
 
             ChromeOptions chromeOptions = new ChromeOptions();
-            // chromeOptions.AddArguments("headless");
+            chromeOptions.AddArguments("headless");
             
             _driver = new ChromeDriver(chromeOptions);
         }
@@ -36,45 +36,22 @@ namespace KaggleSeleniumTesting
         [Test]
         public void LeaveCommentLoggedIn()
         {
-            const string expectedComment = "Awesome!";
-            string actualComment;
-            
             LogIn(5);
-            _driver.Url = "https://www.kaggle.com/discussion";
-            _driver.Url = FindElement(By.XPath("//*[@id='site-content']/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div[1]/div/a"),
-                5).GetAttribute("href");
+            _driver.Url = "https://www.kaggle.com/c/deepfake-detection-challenge/discussion/145721";
 
-            IWebElement commentElement = FindElement(
-                By.XPath("//div[span/span/a/text() = 'VVRudenko']" +
-                         "//div[@class='markdown-converter__text--rendered']/p"), 5);
-            if (commentElement is null)
-            {
-                FindElement(By.XPath("//textarea[@id='placeholder-input']"), 5).Click();
-                FindElement(By.XPath("//textarea[@class='react-mentions__input']"), 5).SendKeys(expectedComment);
-                FindElement(By.XPath("//a[contains(@class, 'button__anchor-wrapper')]"), 5).Click();
-                Thread.Sleep(5000);
-                _driver.Navigate().Refresh();
-                actualComment = FindElement(
-                    By.XPath("//div[span/span/a/text() = 'VVRudenko']" +
-                             "//div[@class='markdown-converter__text--rendered']/p"), 5).Text;
-            }
-            else actualComment = commentElement.Text;
-            StringAssert.AreEqualIgnoringCase(expectedComment, actualComment);
+            IWebElement commentElement = FindElement(By.XPath("//textarea[@id='placeholder-input']"), 5);
+            if (commentElement is null) Assert.Fail();
+            else Assert.Pass();
         }
 
         [Test]
         public void LeaveCommentLoggedOut()
         {
-            const string expectedString = "Please sign in to leave a comment.";
+            _driver.Url = "https://www.kaggle.com/c/deepfake-detection-challenge/discussion/145721";
             
-            _driver.Url = "https://www.kaggle.com/discussion";
-            _driver.Url = FindElement(By.XPath("//*[@id='site-content']/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div[1]/div/a"),
-                5).GetAttribute("href");
-            
-            string actualString = FindElement(
-                By.XPath("//div[@class='comment-list__login-warning']"), 5).Text;
-
-            StringAssert.AreEqualIgnoringCase(expectedString, actualString);
+            IWebElement commentElement = FindElement(By.XPath("//div[@class='comment-list__login-warning']"), 5);
+            if (commentElement is null) Assert.Fail();
+            else Assert.Pass();
         }
 
         [Test]
