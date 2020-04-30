@@ -16,7 +16,7 @@ Examples:
 
 ## Selenium Webdriver  
 The website to test is [www.sportlife.com](https://www.sportlife.ua/uk).  
-To run all test at once, enter `npm run runner`.   
+To run all tests at once, enter `npm run runner`.   
 To run one test, change `NAME_OF_FILE` in `package.json`:  
 ```
 "scripts": {
