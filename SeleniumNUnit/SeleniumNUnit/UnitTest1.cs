@@ -103,7 +103,7 @@ namespace SeleniumNUnit
         public void DocumentationButton()
         {
             driver.Navigate().GoToUrl("https://developers.pipedrive.com/");
-			IWebElement docs_button = driver.FindElement(By.XPath("/html/body/div[1]/div[4]/div[1]/a");
+			IWebElement docs_button = driver.FindElement(By.XPath("/html/body/div[1]/div[4]/div[1]/a"));
 			docs_button.Click();
 			wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.UrlContains("https://pipedrive.readme.io/docs"));
 			Assert.IsTrue(driver.Url.Contains("https://pipedrive.readme.io/docs"));
@@ -113,13 +113,10 @@ namespace SeleniumNUnit
 		public void APIButton()
 		{
 			driver.Navigate().GoToUrl("https://developers.pipedrive.com/");
-			IWebElement api_button = driver.FindElement(By.XPath("/html/body/div[1]/div[4]/div[2]/a");
+			IWebElement api_button = driver.FindElement(By.XPath("/html/body/div[1]/div[4]/div[2]/a"));
 			api_button.Click();
 			wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.UrlContains("https://developers.pipedrive.com/docs/api/"));
 			Assert.IsTrue(driver.Url.Contains("https://developers.pipedrive.com/docs/api/"));
 		}
-
-		[Test]
-		public void 
     }
 }
