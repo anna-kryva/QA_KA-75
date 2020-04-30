@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.1430" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T19:27:03" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Find games with filters" timestamp="2020-04-30T19:27:03" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/findGameWithFilters.test.js" time="5.1430" failures="0">
+    <testcase name="Find games with filters open rpg tag" time="5.1430" classname="open rpg tag">
+    </testcase>
+  </testsuite>
+</testsuites>

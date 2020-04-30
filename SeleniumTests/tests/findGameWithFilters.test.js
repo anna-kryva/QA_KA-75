@@ -15,11 +15,11 @@ describe("Find games with filters", () => {
 
   it("open rpg tag", async () => {
     await (await driver.findElement(By.xpath("/html/body/div[1]/div[7]/div[4]/div[1]/div[2]/div[1]/div[2]/a[9]"))).click();
-    await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/div[1]/div[3]/div[4]/div/div[1]/div/div[1]/div/div[1]/div[3]/div'))).click();
+    await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/div[1]/div[3]/div[4]/div/div[2]/div[2]/a[2]'))).click();
+    const expected = 'The Elder Scrolls® Online';
+    const actual = await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/form/div[1]/div/div[1]/div[3]/div/div[3]/a[1]/div[2]/div[1]/span'))).getText();
 
-    const expected = 'The Elder Scrolls V: Skyrim Special Edition';
-    const actual = await (await driver.findElement(By.xpath('/html/body/div[1]/div[7]/div[4]/div[1]/div[3]/div[4]/div/div[1]/div/div[2]/div[4]/div/div[1]/a[6]/div[3]/div[1]'))).getText();
-
+    
     chai.assert.equal(expected, actual);
   });
 

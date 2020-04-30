@@ -21,6 +21,10 @@ let asyncForEach = async (arr, cb) => {
 
     const mocha = new Mocha({
       timeout: testCase.timeout,
+      reporter: 'mocha-junit-reporter',
+      reporterOptions: {
+          mochaFile: `./results/${testCase.file}.xml`
+      }
     });
 
     return new Promise((resolve, reject) => {
