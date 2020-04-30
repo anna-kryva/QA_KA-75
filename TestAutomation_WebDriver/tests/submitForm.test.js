@@ -1,13 +1,13 @@
-const { Builder, By, until, Capabilities } = require("selenium-webdriver");
-const chrome = require("selenium-webdriver/chrome");
-const chromedriver = require("chromedriver");
+const { Builder, By, until } = require("selenium-webdriver");
 
 const chai = require("chai");
 
 const URL = "https://shop.sportlife.ua/index.php?route=checkout/checkout_fast&product_id=1822&city_id=556";
 
 describe("Fill the form to pay", () => {
-  const driver = global.driver;
+  const driver = global.driver
+        ? global.driver
+        : new Builder().forBrowser('chrome').build();
 
   before(async () => {
     await driver.get(URL);

@@ -1,14 +1,13 @@
-const { Builder, By, until, Capabilities } = require("selenium-webdriver");
-const chrome = require("selenium-webdriver/chrome");
-const chromedriver = require("chromedriver");
+const { Builder, By, until } = require("selenium-webdriver");
 
 const chai = require("chai");
-
 
 const URL = "https://www.sportlife.ua/uk/about/lookingforstaff";
 
 describe("Looking for staff", () => {
-  const driver = global.driver;
+  const driver = global.driver
+        ? global.driver
+        : new Builder().forBrowser('chrome').build();
 
   let anchor;
 

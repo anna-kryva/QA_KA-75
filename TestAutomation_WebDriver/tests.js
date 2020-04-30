@@ -1,6 +1,6 @@
 const chromedriver = require("chromedriver");
-const chrome = require("selenium-webdriver/chrome");
-const { Builder, Capabilities } = require("selenium-webdriver");
+// const chrome = require("selenium-webdriver/chrome");
+const { Builder } = require("selenium-webdriver");
 const config = require("./config.json");
 const Mocha = require("mocha");
 
@@ -13,10 +13,9 @@ let asyncForEach = async (arr, cb) => {
 
 (async () => {
   await asyncForEach(config.tests, async (testCase) => {
-    chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
+    // chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
     global.driver = await new Builder()
         .forBrowser("chrome")
-        .withCapabilities(Capabilities.chrome())
         .build();
 
     const mocha = new Mocha({

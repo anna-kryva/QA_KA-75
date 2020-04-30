@@ -2,35 +2,35 @@
     "tests": [
       {
         "file": "./tests/toMainPage.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/chooseClub.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/toFacebook.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/selectClubTrainers.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/lookingForStaff.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/poolLink.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/bathhouseWorker.test.js",
-        "timeout": 30000
+        "timeout": 60000
       },
       {
         "file": "./tests/submitForm.test.js",
-        "timeout": 30000
+        "timeout": 60000
       }
     ]
 }
