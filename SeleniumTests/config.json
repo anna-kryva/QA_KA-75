@@ -17,10 +17,6 @@
         "timeout": 120000
       },
       {
-        "file": "./tests/findGameWithFilters.test.js",
-        "timeout": 120000
-      },
-      {
         "file": "./tests/findGamesByTags.test.js",
         "timeout": 120000
       }
