@@ -2,19 +2,19 @@
     "tests": [
       {
         "file": "./tests/toMainPage.test.js",
-        "timeout": 120000
+        "timeout": 60000
       },
       {
         "file": "./tests/toFacebook.test.js",
-        "timeout": 120000
+        "timeout": 60000
       },
       {
         "file": "./tests/findGame.test.js",
-        "timeout": 120000
+        "timeout": 60000
       },
       {
         "file": "./tests/addGameToCart.test.js",
-        "timeout": 120000
+        "timeout": 60000
       },
       {
         "file": "./tests/findGamesByTags.test.js",
