@@ -1,0 +1,44 @@
+{
+    "tests": [
+      {
+        "fileName": "toMainPage",
+        "filePath": "./tests/toMainPage.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "chooseClub",
+        "filePath": "./tests/chooseClub.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "toFacebook",
+        "filePath": "./tests/toFacebook.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "selectClubTrainers",
+        "filePath": "./tests/selectClubTrainers.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "lookingForStaff",
+        "filePath": "./tests/lookingForStaff.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "poolLink",
+        "filePath": "./tests/poolLink.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "bathhouseWorker",
+        "filePath": "./tests/bathhouseWorker.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "submitForm",
+        "filePath": "./tests/submitForm.test.js",
+        "timeout": 60000
+      }
+    ]
+}

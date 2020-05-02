@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.0670" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-02T20:49:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Choose the club from a list" timestamp="2020-05-02T20:49:47" tests="2" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_PageObject\tests\chooseClub.test.js" time="14.0670" failures="0">
+    <testcase name="Choose the club from a list should mouse over menu tab" time="9.0850" classname="should mouse over menu tab">
+    </testcase>
+    <testcase name="Choose the club from a list should click on menu item and go to the club page" time="4.9820" classname="should click on menu item and go to the club page">
+    </testcase>
+  </testsuite>
+</testsuites>

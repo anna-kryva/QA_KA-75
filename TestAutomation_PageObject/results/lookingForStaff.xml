@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.3960" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-02T20:50:45" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Looking for staff" timestamp="2020-05-02T20:50:45" tests="1" file="D:\Аня\Учеба\QA\QA_KA-75\TestAutomation_PageObject\tests\lookingForStaff.test.js" time="5.3960" failures="0">
+    <testcase name="Looking for staff should click on the link and get the list of vacancies" time="5.3960" classname="should click on the link and get the list of vacancies">
+    </testcase>
+  </testsuite>
+</testsuites>
