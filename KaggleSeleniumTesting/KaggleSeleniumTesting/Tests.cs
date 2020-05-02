@@ -87,7 +87,6 @@ namespace KaggleSeleniumTesting
             _driver.Url = "https://www.kaggle.com/c/vsb-power-line-fault-detection/data";
             string actualLink = FindElement(
                 By.XPath("//*[@id='comp-data-download-all']"), 5).GetAttribute("href");
-            Console.WriteLine(actualLink);
             StringAssert.AreEqualIgnoringCase(expectedLink, actualLink);
         }
         
