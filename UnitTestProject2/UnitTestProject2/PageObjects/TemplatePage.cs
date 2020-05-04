@@ -6,17 +6,16 @@ namespace UnitTestProject2.PageObjects
 {
     public abstract class TemplatePage
     {
-        private IWebDriver _driver;
-        public IWebDriver Driver => _driver;
+        public IWebDriver Driver;
 
         public TemplatePage(IWebDriver driver)
         {
-            _driver = driver;
+            Driver = driver;
         }
 
         public IWebElement WaitUntilDisplayed(IWebElement element, int timeout = 5)
         {
-            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(timeout));
+            WebDriverWait wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(timeout));
             try
             {
                 wait.Until(drv => element.Displayed);
