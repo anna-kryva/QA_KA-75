@@ -13,11 +13,11 @@
       "timeout": 60000
     },
     {
-      "file": "./tests/addGameToCart.test.js",
+      "file": "./tests/findGameWithFilters.test.js",
       "timeout": 60000
     },
     {
-      "file": "./tests/findGameWithFilters.test.js",
+      "file": "./tests/addGameToCart.test.js",
       "timeout": 60000
     }
     
