@@ -12,7 +12,7 @@ namespace SpecFlowPageObject.Steps
         [Given(@"I have been on page of the website https://www\.vmr\.gov\.ua/")]
         public void GivenIHaveBeenOnPageOfTheWebsiteHttpsWww_Vmr_Gov_Ua()
         {
-            ScenarioContext.Current.Pending(); string url = "https://www.vmr.gov.ua";
+            string url = "https://www.vmr.gov.ua";
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl(url);
             myPage = new MainPage(driver);
