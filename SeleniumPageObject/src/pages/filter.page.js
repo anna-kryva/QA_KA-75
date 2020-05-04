@@ -7,7 +7,7 @@ class FilterPage extends PageBase{
         webdriver,
         driver,
         targetUrl = "https://store.steampowered.com/tags/en/RPG/",
-        waitTimeout = 30000
+        waitTimeout = 60000
       ) {
         super(webdriver, driver, targetUrl, waitTimeout);
       }

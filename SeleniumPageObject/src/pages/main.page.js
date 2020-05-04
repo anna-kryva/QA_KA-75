@@ -5,7 +5,7 @@ class MainPage extends PageBase{
         webdriver,
         driver,
         targetUrl = "https://store.steampowered.com",
-        waitTimeout = 30000
+        waitTimeout = 60000
       ) {
         super(webdriver, driver, targetUrl, waitTimeout);
       }

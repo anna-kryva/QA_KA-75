@@ -1,5 +1,5 @@
 class ComponentBase {
-  constructor(webdriver, driver, waitTimeout = 30000) {
+  constructor(webdriver, driver, waitTimeout = 60000) {
     this.webdriver = webdriver;
     this.driver = driver;
     this.waitTimeout = waitTimeout;
@@ -28,25 +28,25 @@ class ComponentBase {
     return result;
   }
 
-  async waitForElementByCss(cssName, waitTimeout = 30000) {
+  async waitForElementByCss(cssName, waitTimeout = 60000) {
     const selector = this.webdriver.By.css(cssName);
     const result = await this.waitForElement(selector, cssName, waitTimeout);
     return result;
   }
 
-  async waitForElementByXPath(xpath, waitTimeout = 30000) {
+  async waitForElementByXPath(xpath, waitTimeout = 60000) {
     const selector = this.webdriver.By.xpath(xpath);
     const result = await this.waitForElement(selector, xpath, waitTimeout);
     return result;
   }
 
-  async waitForElementById(idName, waitTimeout = 30000) {
+  async waitForElementById(idName, waitTimeout = 60000) {
     const selector = this.webdriver.By.id(idName);
     const result = await this.waitForElement(selector, idName, waitTimeout);
     return result;
   }
 
-  async waitForElementByTag(tagName, waitTimeout = 30000) {
+  async waitForElementByTag(tagName, waitTimeout = 60000) {
     const selector = this.webdriver.By.tagName(tagName);
     const result = await this.waitForElement(selector, tagName, waitTimeout);
     return result;
@@ -75,36 +75,36 @@ class ComponentBase {
     return result;
   }
 
-  async waitForElementsByCss(cssName, waitTimeout = 30000) {
+  async waitForElementsByCss(cssName, waitTimeout = 60000) {
     const selector = this.webdriver.By.css(cssName);
     const result = await this.waitForElements(selector, cssName, waitTimeout);
     return result;
   }
 
-  async waitForElementsById(idName, waitTimeout = 30000) {
+  async waitForElementsById(idName, waitTimeout = 60000) {
     const selector = this.webdriver.By.id(idName);
     const result = await this.waitForElements(selector, idName, waitTimeout);
     return result;
   }
 
-  async waitForElementsByXPath(xpath, waitTimeout = 30000) {
+  async waitForElementsByXPath(xpath, waitTimeout = 60000) {
     const selector = this.webdriver.By.xpath(xpath);
     const result = await this.waitForElements(selector, xpath, waitTimeout);
     return result;
   }
 
-  async waitForElementsByTag(tagName, waitTimeout = 30000) {
+  async waitForElementsByTag(tagName, waitTimeout = 60000) {
     const selector = this.webdriver.By.tagName(tagName);
     const result = await this.waitForElements(selector, tagName, waitTimeout);
     return result;
   }
 
   //wait for url
-  async waitForUrlToBe(url, waitTimeout = 30000) {
+  async waitForUrlToBe(url, waitTimeout = 60000) {
     await this.driver.wait(this.webdriver.until.urlIs(url), waitTimeout);
   }
 
-  async waitForUrlToContain(subUrl, waitTimeout = 30000) {
+  async waitForUrlToContain(subUrl, waitTimeout = 60000) {
     await this.driver.wait(
       this.webdriver.until.urlContains(subUrl),
       waitTimeout
@@ -112,7 +112,7 @@ class ComponentBase {
   }
 
   //click when element is displayed and enable
-  async clickWhenClickable(element, waitTimeout = 30000) {
+  async clickWhenClickable(element, waitTimeout = 60000) {
     await this.driver.wait(
       this.webdriver.until.elementIsVisible(element),
       waitTimeout
@@ -125,23 +125,23 @@ class ComponentBase {
     await element.click();
   }
 
-  async clickWhenClickableByCss(cssName, waitTimeout = 30000) {
+  async clickWhenClickableByCss(cssName, waitTimeout = 60000) {
     const element = await this.waitForElementByCss(cssName, waitTimeout);
     await this.clickWhenClickable(element, waitTimeout);
   }
 
-  async clickWhenClickableByXPath(xpath, waitTimeout = 30000) {
+  async clickWhenClickableByXPath(xpath, waitTimeout = 60000) {
     const element = await this.waitForElementByXPath(xpath, waitTimeout);
     await this.clickWhenClickable(element, waitTimeout);
   }
 
-  async clickWhenClickableById(idName, waitTimeout = 30000) {
+  async clickWhenClickableById(idName, waitTimeout = 60000) {
     const element = await this.waitForElementById(idName, waitTimeout);
     await this.clickWhenClickable(element, waitTimeout);
   }
 
   //send keys when element is displayed and enable
-  async sendKeysWhenEnable(element, argument, waitTimeout = 30000) {
+  async sendKeysWhenEnable(element, argument, waitTimeout = 60000) {
     await this.driver.wait(
       this.webdriver.until.elementIsVisible(element),
       waitTimeout
@@ -154,7 +154,7 @@ class ComponentBase {
     await element.sendKeys(argument);
   }
 
-  async sendKeysWhenEnableById(idName, argument, waitTimeout = 30000) {
+  async sendKeysWhenEnableById(idName, argument, waitTimeout = 60000) {
       const element = await this.waitForElementById(idName, waitTimeout);
       await this.sendKeysWhenEnable(element, argument, waitTimeout);
   }
@@ -173,7 +173,7 @@ class ComponentBase {
   }
 
 
-  async getInputValueById(idName, waitTimeout = 30000) {
+  async getInputValueById(idName, waitTimeout = 60000) {
       const element = await this.waitForElementById(idName, waitTimeout);
       const result = await this.getAttributeValue(element);
       return result;
@@ -188,19 +188,19 @@ class ComponentBase {
     }
   }
 
-  async doExistByCss(cssName, waitTimeout = 30000) {
+  async doExistByCss(cssName, waitTimeout = 60000) {
     const elements = await this.waitForElementsByCss(cssName, waitTimeout);
     const result = !this.isArrayEmpty(elements);
     return result;
   }
 
-  async doExistByXPath(xpath, waitTimeout = 30000) {
+  async doExistByXPath(xpath, waitTimeout = 60000) {
     const elements = await this.waitForElementsByXPath(xpath, waitTimeout);
     const result = !this.isArrayEmpty(elements);
     return result;
   }
 
-  async doExistById(idName, waitTimeout = 30000) {
+  async doExistById(idName, waitTimeout = 60000) {
     const elements = await this.waitForElementsById(idName, waitTimeout);
     const result = !this.isArrayEmpty(elements);
     return result;
