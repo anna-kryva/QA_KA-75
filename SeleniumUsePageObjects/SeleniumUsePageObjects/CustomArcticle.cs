@@ -25,6 +25,7 @@ namespace SeleniumUsePageObjects
         {            
             TakeIntoView(CommentsIcons[1]);
             CommentsIcons[1].Click();
+           // CloseAdvertisement();
             CommentArea.SendKeys(str);
             CommentSubmitButton.Click();
             return this;

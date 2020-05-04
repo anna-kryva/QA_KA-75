@@ -107,7 +107,7 @@ namespace SeleniumUsePageObjectsTests
             Assert.AreEqual(check_word, res, "Pop up window content is not translated to " + lang + " language");
         }
         [TestCase("Facebook", "https://www.facebook.com/UNIAN.net/")]
-        [TestCase("Telegram", "https://t.me/uniannet")]
+        [TestCase("Telegram", "https://t.me/joinchat/AAAAAEHhvOisFfUQetRBow")]
         public void SocialLinkIsOpenedInAnotherTab(string link_name, string link_url)
         {
             var MainPage = new MainPage(driver);
