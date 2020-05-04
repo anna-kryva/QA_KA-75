@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
-using TechTalk.SpecFlow;
+using TechTalk.SpecFlow;;
 
 namespace SpecFlowPageObject.Steps
 {
@@ -12,24 +12,24 @@ namespace SpecFlowPageObject.Steps
         [Given(@"I have been on page of the website https://www\.vmr\.gov\.ua/")]
         public void GivenIHaveBeenOnPageOfTheWebsiteHttpsWww_Vmr_Gov_Ua()
         {
-            string url = "https://www.vmr.gov.ua";
+            ScenarioContext.Current.Pending(); string url = "https://www.vmr.gov.ua";
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl(url);
             myPage = new MainPage(driver);
         }
-
+        
         [Given(@"I have pressed UI settings button")]
         public void GivenIHavePressedUISettingsButton()
         {
             myPage.PressSettingsButton();
         }
-
+        
         [When(@"I press a change font size button")]
         public void WhenIPressAChangeFontSizeButton()
         {
             myPage.ChooseLargeButtonMode();
         }
-
+        
         [Then(@"the font size on the page should be changed")]
         public void ThenTheFontSizeOnThePageShouldBeChanged()
         {

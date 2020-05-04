@@ -3,7 +3,7 @@
 	As an ill-sighted person
 	I want to change a font size on the page
 
-Scenario: Add two numbers
+Scenario: Change font size
 	Given I have been on page of the website https://www.vmr.gov.ua/
 	And I have pressed UI settings button
 	When I press a change font size button

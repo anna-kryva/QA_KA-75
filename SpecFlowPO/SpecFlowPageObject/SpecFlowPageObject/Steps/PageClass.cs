@@ -66,7 +66,7 @@ namespace SpecFlowPageObject.Steps
         public void StartSearching()
         {
             startSearchButton.Click();
-            _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            Thread.Sleep(3000);
         }
 
 
@@ -201,7 +201,7 @@ namespace SpecFlowPageObject.Steps
         public void GetStatistics()
         {
             startSearchButton.Click();
-            Thread.Sleep(50000);
+            Thread.Sleep(60000);
         }
         public bool ShowStatisticsRes(string serviceCenter)
         {
