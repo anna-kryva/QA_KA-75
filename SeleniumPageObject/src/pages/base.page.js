@@ -1,7 +1,7 @@
 const ComponentBase = require('../base.component');
 
 class PageBase extends ComponentBase{
-    constructor(webdriver, driver, targetUrl, waitTimeout = 10000){
+    constructor(webdriver, driver, targetUrl, waitTimeout = 30000){
         super(webdriver, driver, waitTimeout);
         this.targetUrl = targetUrl;
     }

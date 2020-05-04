@@ -5,7 +5,7 @@ class TesPage extends PageBase{
         webdriver,
         driver,
         targetUrl = "https://store.steampowered.com/app/306130/The_Elder_Scrolls_Online/",
-        waitTimeout = 10000
+        waitTimeout = 30000
       ) {
         super(webdriver, driver, targetUrl, waitTimeout);
       }

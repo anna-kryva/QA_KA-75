@@ -5,7 +5,7 @@ class CartPage extends PageBase{
         webdriver,
         driver,
         targetUrl = "https://store.steampowered.com/cart/",
-        waitTimeout = 10000
+        waitTimeout = 30000
       ) {
         super(webdriver, driver, targetUrl, waitTimeout);
       }

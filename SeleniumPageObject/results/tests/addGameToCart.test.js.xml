@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="7.2480" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-05-04T19:59:31" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="13.0020" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-04T20:08:42" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Find games with filters" timestamp="2020-05-04T19:59:31" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/addGameToCart.test.js" time="7.2480" failures="0">
-    <testcase name="Find games with filters should click on the logo and redirect to main page" time="7.2480" classname="should click on the logo and redirect to main page">
+  <testsuite name="Find games with filters" timestamp="2020-05-04T20:08:42" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/addGameToCart.test.js" time="13.0020" failures="0">
+    <testcase name="Find games with filters should click on the logo and redirect to main page" time="13.0020" classname="should click on the logo and redirect to main page">
     </testcase>
   </testsuite>
 </testsuites>
