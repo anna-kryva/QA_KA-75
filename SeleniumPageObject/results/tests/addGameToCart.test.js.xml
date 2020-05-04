@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="6.3740" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-05-04T20:18:14" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0010" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-05-04T21:01:16" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Find games with filters" timestamp="2020-05-04T20:18:14" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/addGameToCart.test.js" time="6.3740" failures="0">
-    <testcase name="Find games with filters should click on the logo and redirect to main page" time="6.3740" classname="should click on the logo and redirect to main page">
+  <testsuite name="Find games with filters" timestamp="2020-05-04T21:01:16" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/addGameToCart.test.js" time="0.0010" failures="1">
+    <testcase name="Find games with filters &quot;before all&quot; hook for &quot;should click on the logo and redirect to main page&quot;" time="0.0010" classname="&quot;before all&quot; hook for &quot;should click on the logo and redirect to main page&quot;">
+      <failure message="awaittesPage is not defined" type="ReferenceError"><![CDATA[ReferenceError: awaittesPage is not defined
+    at Context.<anonymous> (tests/addGameToCart.test.js:19:5)
+    at processImmediate (internal/timers.js:456:21)]]></failure>
     </testcase>
   </testsuite>
 </testsuites>

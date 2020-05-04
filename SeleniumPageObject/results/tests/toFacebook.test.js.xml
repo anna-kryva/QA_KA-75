@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="9.9130" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-05-04T20:08:21" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="7.1490" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-04T21:00:46" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Redirect to Facebook" timestamp="2020-05-04T20:08:21" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/toFacebook.test.js" time="9.9130" failures="0">
-    <testcase name="Redirect to Facebook should click to the fb logo and redirect to fb page of steam" time="9.9130" classname="should click to the fb logo and redirect to fb page of steam">
+  <testsuite name="Redirect to Facebook" timestamp="2020-05-04T21:00:46" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/toFacebook.test.js" time="7.1490" failures="0">
+    <testcase name="Redirect to Facebook should click to the fb logo and redirect to fb page of steam" time="7.1490" classname="should click to the fb logo and redirect to fb page of steam">
     </testcase>
   </testsuite>
 </testsuites>

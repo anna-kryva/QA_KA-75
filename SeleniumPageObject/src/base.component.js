@@ -202,7 +202,9 @@ class ComponentBase {
 
   async doExistById(idName, waitTimeout = 60000) {
     const elements = await this.waitForElementsById(idName, waitTimeout);
+    console.log(elements);
     const result = !this.isArrayEmpty(elements);
+    console.log(result);
     return result;
   }
 }

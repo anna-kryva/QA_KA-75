@@ -16,6 +16,13 @@ class TesPage extends PageBase{
           await this.clickWhenClickableByXPath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span');
         }
       }
+
+      // async skipAgeCheck(){
+      //   if(!!(await this.doExistById('ageYear'))){
+      //     await this.sendKeysWhenEnableById('ageYear', '2000');
+      //     await this.clickWhenClickableByXPath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span');
+      //   }
+      // }
       async waitPageLoad(){
           await this.waitForUrlToBe(this.targetUrl);
       }

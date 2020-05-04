@@ -20,7 +20,7 @@ describe("Find game by name", () => {
     mainPage = new MainPage(webdriver, driver);
     filterPage = new FilterPage(webdriver, driver);
     tesPage = new TesPage(webdriver, driver);
-    mainPage.maximizeWindow();
+    await mainPage.maximizeWindow();
   });
 
   it("should find game by name", async () => {

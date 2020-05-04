@@ -17,6 +17,12 @@ class MainPage extends PageBase{
             await this.clickWhenClickableByXPath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span');
           }
     }
+    // async skipAgeCheck(){
+    //     if(!!(await this.doExistById('ageYear'))){
+    //       await this.sendKeysWhenEnableById('ageYear', '2000');
+    //       await this.clickWhenClickableByXPath('//*[@id="app_agegate"]/div[1]/div[3]/a[1]/span');
+    //     }
+    //   }
     async searchByWord(word){
         let search = await this.waitForElementById('store_nav_search_term');
         await search.sendKeys(word);
