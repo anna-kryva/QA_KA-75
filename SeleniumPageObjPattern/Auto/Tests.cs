@@ -47,7 +47,7 @@ namespace Auto
 
             PgObj._gotopage("https://www.analizfamilii.ru/")._fillintopname(top_name)._starttopsearch()._wait()._fillindate(date)._wait();
             
-            Assert.AreEqual("Не верный формат даты рождения", PgObj.GetDateCheckMessage());
+            Assert.AreEqual("Дата рождения указано корректно", PgObj.GetDateCheckMessage());
         }
         
 
