@@ -15,7 +15,7 @@ describe("Go to main page via the logo", () => {
 
   before (async ()=>{
     page = new MainPage(webdriver, driver);
-    page.maximizeWindow();
+    await page.maximizeWindow();
   });
 
   it("should click on the logo and redirect to main page", async () => {

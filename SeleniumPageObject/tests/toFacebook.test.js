@@ -15,7 +15,7 @@ describe("Redirect to Facebook", () => {
 
   before (async ()=>{
     page = new MainPage(webdriver, driver);
-    page.maximizeWindow();
+    await page.maximizeWindow();
   });
 
   // it("should find the icon", async () => {

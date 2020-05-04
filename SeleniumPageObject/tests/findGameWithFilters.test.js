@@ -17,7 +17,7 @@ describe("Find games with filters", () => {
   before (async ()=>{
     mainPage = new MainPage(webdriver, driver);
     filterPage = new FilterPage(webdriver, driver);
-    mainPage.maximizeWindow();
+    await mainPage.maximizeWindow();
   });
 
   it("should click on the logo and redirect to main page", async () => {
