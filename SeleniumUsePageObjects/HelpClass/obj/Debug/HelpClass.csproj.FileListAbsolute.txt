@@ -1,0 +1,6 @@
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\bin\Debug\HelpClass.dll
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\bin\Debug\HelpClass.pdb
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\obj\Debug\HelpClass.csprojAssemblyReference.cache
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\obj\Debug\HelpClass.csproj.CoreCompileInputs.cache
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\obj\Debug\HelpClass.dll
+D:\универ\3 курс\testing)\c#\SeleniumUsePageObjects\HelpClass\obj\Debug\HelpClass.pdb
