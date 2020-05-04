@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0490" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-30T20:18:57" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Find game with tags and filters" timestamp="2020-04-30T20:18:57" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumTests/tests/findGamesByTags.test.js" time="0.0490" failures="0">
+    <testcase name="Find game with tags and filters should be works" time="0.0490" classname="should be works">
+    </testcase>
+  </testsuite>
+</testsuites>

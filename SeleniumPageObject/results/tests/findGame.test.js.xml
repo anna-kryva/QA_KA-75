@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.2420" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-04T19:59:21" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Find game by name" timestamp="2020-05-04T19:59:21" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/SeleniumPageObject/tests/findGame.test.js" time="10.2420" failures="0">
+    <testcase name="Find game by name should find game by name" time="10.2420" classname="should find game by name">
+    </testcase>
+  </testsuite>
+</testsuites>
