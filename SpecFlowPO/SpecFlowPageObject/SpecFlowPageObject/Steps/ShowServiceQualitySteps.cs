@@ -17,7 +17,7 @@ namespace SpecFlowPageObject.Steps
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl(url);
             myPage = new StatisticsPage(driver);
-            Thread.Sleep(6000);
+            Thread.Sleep(7000);
         }
         
         [Given(@"I have chosen as a start data next '(.*)' as a start data")]

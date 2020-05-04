@@ -44,6 +44,7 @@ namespace SpecFlowPageObject.Steps
         public void PressSettingsButton()
         {
             switchModeButton.Click();
+            Thread.Sleep(1000);
         }
         public void ChooseDarkBackgroundColorColorMode()
         {
