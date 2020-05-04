@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium.Chrome;
-using TechTalk.SpecFlow;;
+using TechTalk.SpecFlow;
 
 namespace SpecFlowPageObject.Steps
 {
