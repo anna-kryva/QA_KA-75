@@ -110,6 +110,7 @@ namespace Tests
                 .CheckboxTrueClick();
             page.Continue().InputSpanMove();
         }
+        [Test]
         public void Test8()
         {
             string name = "Майкл Джордан";
@@ -122,7 +123,7 @@ namespace Tests
                 .CheckboxTrueClick()
                 .CheckboxFalseClick()
                 .CheckboxTrueClick();
-            page.Continue().NameInputInsert(name).SubmitButtonClick().NextButtonClick();
+            page.Continue().NameInputInsert(name).SubmitButtonClick().Wait1000().NextButtonClick();
             string result = page.Get_url().Substring(0, 21);
             Assert.AreEqual(result, expected);
         }
