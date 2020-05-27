@@ -1,0 +1,8 @@
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/bin/Release/Tasks.exe
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/bin/Release/nunit.framework.dll
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/bin/Release/nunit.framework.pdb
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/bin/Release/nunit.framework.xml
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/obj/x86/Release/Tasks.csproj.CoreCompileInputs.cache
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/obj/x86/Release/Tasks.csproj.CopyComplete
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/obj/x86/Release/Tasks.exe
+/home/msyat/Labs/DT/Tasks/Tasks/Tasks/obj/x86/Release/Tasks.csprojAssemblyReference.cache
