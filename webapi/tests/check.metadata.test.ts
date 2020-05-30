@@ -1,6 +1,15 @@
 import {expect} from 'chai';
 import { checkMetadata } from './spec/check.metadata.spec';
 import { apiDropboxResponse } from '../src/dropbox/responses/api.response.type';
+import Mocha from 'mocha';
+
+var mocha = new Mocha({
+    reporter: 'mocha-junit-reporter',
+    reporterOptions: {
+        testCaseSwitchClassnameAndName: true,
+        toConsole: true
+    }
+});
 
 describe('Upload file and check metadata',()=>{
     it('should return name "machine_learning.pdf"',async ()=>{

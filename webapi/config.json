@@ -1,0 +1,19 @@
+{
+    "tests": [
+  
+      {
+        "file": "./tests/check.auth.test.ts",
+        "timeout": 60000
+      },
+      {
+        "file": "./tests/check.metadata.test.ts",
+        "timeout": 60000
+      },
+      {
+        "file": "./tests/delete.file.test.ts",
+        "timeout": 60000
+      }
+      
+    ]
+  }
+  

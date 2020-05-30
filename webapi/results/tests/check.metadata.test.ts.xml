@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.4400" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-30T08:56:40" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Upload file and check metadata" timestamp="2020-05-30T08:56:40" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/webapi/tests/check.metadata.test.ts" time="6.4400" failures="0">
+    <testcase name="Upload file and check metadata should return name &quot;machine_learning.pdf&quot;" time="6.4400" classname="should return name &quot;machine_learning.pdf&quot;">
+    </testcase>
+  </testsuite>
+</testsuites>
