@@ -1,0 +1,111 @@
+{
+	"id": "8bf6263d-695e-48a7-9f49-e3af62157466",
+	"name": "DropBox",
+	"timestamp": "2020-05-30T17:17:40.751Z",
+	"collection_id": "87d0a4b9-06df-46b7-b542-954259ecb47f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "04bb34e4-bc17-45b2-9a57-3ea62f25d1b7",
+			"name": "GetFileMetadata",
+			"url": "https://api.dropboxapi.com/2/files/get_metadata",
+			"time": 480,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				480
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3b0c982f-ff16-4a74-bbea-8f157d0a45b4",
+			"name": "CopyFile",
+			"url": "https://api.dropboxapi.com/2/files/copy_v2",
+			"time": 752,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				752
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fdd3c6c6-1e13-4d9f-be1f-b1d5b357b3c9",
+			"name": "DeleteFile",
+			"url": "https://api.dropboxapi.com/2/files/delete_v2",
+			"time": 679,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				679
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1911,
+	"collection": {
+		"requests": [
+			{
+				"id": "04bb34e4-bc17-45b2-9a57-3ea62f25d1b7",
+				"method": "POST"
+			},
+			{
+				"id": "3b0c982f-ff16-4a74-bbea-8f157d0a45b4",
+				"method": "POST"
+			},
+			{
+				"id": "fdd3c6c6-1e13-4d9f-be1f-b1d5b357b3c9",
+				"method": "POST"
+			}
+		]
+	}
+}

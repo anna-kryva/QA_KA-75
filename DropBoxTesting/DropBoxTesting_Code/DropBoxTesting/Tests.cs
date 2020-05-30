@@ -10,7 +10,7 @@ namespace DropBoxTesting
     {
         private DropBoxClass _dropBox;
         private string _token =
-            "sl.AbAchrqP2B-UFKt4MEmmOPlGQJbh2_v3ucDBZk8QMQqton2XcVgiiFTAPFbbVwd0lJOym5BFscl14al41sK1pKS4xmAX6Ck5UeIsweujX8rqszhjGfC2DAFl-nNWLZzJ67G3WW6t";
+            "sl.AbBB9C0HF6JlqJBiVv5r6Sr3SR7EMI1P4GgGYrrCTPvNLvuRKkZWeT93wPlqCuaZkQ93nze_xaT2Y1vgN0EbzwfNRV6urdwbVC3ddG0nwGEmy8bRsTAvwspD778Vl2CrutL4ytG2";
 
         private string _hash = "f40c1228343d7e2a632281c986dbb7af3491b9b63ddfd0eb10fee2c913f6cfa7";
 
