@@ -5,7 +5,8 @@ const main = async () => {
     const page = await browser.newPage();
     await page.goto("https://google.com")
     try {
-        await page.waitForSelector("#hplogo")
+        await page.waitForSelector("#hplogo",{timeout: 30000})
+        console.log("success")
     } catch (e) {
         console.log(e)
     }
