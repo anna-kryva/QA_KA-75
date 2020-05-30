@@ -5,7 +5,7 @@ export interface IDropBoxClient{
     isAuth(): Promise<boolean>;
 
     uploadFile(filePath: string, dropboxFilePath: string,fileName: string):
-     Promise<apiDropboxResponse>;
+    Promise<apiDropboxResponse>;
 
     getMetadata(dropboxPath:string): Promise<apiDropboxResponse>;
 
