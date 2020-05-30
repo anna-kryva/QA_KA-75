@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node --files ./src/index.ts",
     "start:dev": "ts-node-dev ./src/index.ts",
-    "start:prod": "node ./dist/index.js",
+    "start:prod": "node ./dist/src/index.js",
     "build": "rimraf dist && tsc --sourceMap -p ./",
     "test": "npx jest --verbose --runInBand"
   },
