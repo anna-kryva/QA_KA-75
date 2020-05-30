@@ -20,7 +20,7 @@ namespace KaggleSeleniumTesting_PageObjects
             _password = Environment.GetEnvironmentVariable("PASSWORD_KAGGLE");
 
             ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.AddArguments("headless");
+            // chromeOptions.AddArguments("headless");
             
             _driver = new ChromeDriver(chromeOptions);
         }
