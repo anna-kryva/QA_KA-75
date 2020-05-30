@@ -1,6 +1,6 @@
 import fs from "fs";
-import DropboxRequest from "./dropbox.request";
 import IResponse from "./interfaces";
+import DropboxRequest from "./dropbox.request";
 
 class ApiRequests extends DropboxRequest {
   private readonly uploadRequestURL =
