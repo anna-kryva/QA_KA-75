@@ -2,6 +2,7 @@ import {launch} from "puppeteer"
 
 const main = async () => {
     const browser = await launch();
+    console.log("Browser started")
     const page = await browser.newPage();
     await page.goto("https://google.com")
     try {
