@@ -5,10 +5,8 @@ const main = () => {
   communicator = new DropBoxCommunicator();
 
   test('Get file metadata', async () => {
-    const uploadResponse = await communicator.upload('image.jpg', '/image.jpg');
-    const getMetadataresponse = await communicator.getMetadata('/image.jpg'); 
+    const getMetadataresponse = await communicator.getMetadata('id:rB3op0c_o2AAAAAAAAAAEQ'); 
 
-    expect(uploadResponse).toBe('ok');
     expect(getMetadataresponse).toBe('ok');
   });
 

@@ -40,10 +40,10 @@ class DropboxCommunicator {
     }
 
 
-    getMetadata(path) {
+    getMetadata(file) {
         const request = this.post(
             `${this.RPC_ENDPOINT}sharing/get_file_metadata`, 
-            'application/json', { path }
+            'application/json', { file }
         );
         const proc = (res) => res.json().then(
             data => { 
