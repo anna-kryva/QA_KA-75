@@ -1,0 +1,20 @@
+{
+  "name": "webservicetesting",
+  "version": "1.0.0",
+  "description": "Cover some Dropbox endpoints with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "jest",
+    "dropbox"
+  ],
+  "author": "Anna Kryva <anna120100@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
