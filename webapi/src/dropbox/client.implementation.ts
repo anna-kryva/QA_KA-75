@@ -19,10 +19,14 @@ export class DropBoxClient implements IDropBoxClient{
     private readonly deleteObjectUrl: string = 
     "https://api.dropboxapi.com/2/files/delete_v2";
 
-    constructor(){
+    //overloading as polymorphism
+    constructor();
+    constructor(token?:string){
         dotenv.config();
         const dropboxAuthToken: string = 
-        String(process.env.DROPBOX_AUTH_TOKEN);
+        String(token||process.env.DROPBOX_AUTH_TOKEN);
+        console.log(dropboxAuthToken);
+        
         
         this.client = request.agent()
         .auth(dropboxAuthToken, { type: "bearer" });
@@ -49,7 +53,6 @@ export class DropBoxClient implements IDropBoxClient{
             "mute": false,
             "strict_conflict": false,
         };
-
         const file = fs.readFileSync(filePath);
         const response = await this.client
         .post(this.uploadFileUrl)
@@ -76,7 +79,7 @@ export class DropBoxClient implements IDropBoxClient{
         .post(this.getMeatdataUrl)
         .set("Content-Type", "application/json")
         .send(dropboxSpecData);
-
+    
         return { 
             id: response.body.id,
             path_display: response.body.path_display,

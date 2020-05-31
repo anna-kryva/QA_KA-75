@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.7950" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-05-30T08:56:47" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.7780" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-31T09:36:13" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Delete file" timestamp="2020-05-30T08:56:47" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/webapi/tests/delete.file.test.ts" time="0.7950" failures="0">
-    <testcase name="Delete file should return metadata" time="0.7950" classname="should return metadata">
+  <testsuite name="Delete file" timestamp="2020-05-31T09:36:13" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/webapi/tests/delete.file.test.ts" time="0.7780" failures="0">
+    <testcase name="Delete file should return metadata" time="0.7780" classname="should return metadata">
     </testcase>
   </testsuite>
 </testsuites>

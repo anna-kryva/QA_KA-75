@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.5230" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2020-05-30T08:56:39" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.5280" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-31T09:36:07" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Check auth token" timestamp="2020-05-30T08:56:39" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/webapi/tests/check.auth.test.ts" time="0.5230" failures="0">
-    <testcase name="Check auth token should return true" time="0.5230" classname="should return true">
+  <testsuite name="Check auth token" timestamp="2020-05-31T09:36:07" tests="1" file="/home/berkendorff/Learning/ТРПЗ/QA_KA-75/webapi/tests/check.auth.test.ts" time="0.5280" failures="0">
+    <testcase name="Check auth token should return true" time="0.5280" classname="should return true">
     </testcase>
   </testsuite>
 </testsuites>
