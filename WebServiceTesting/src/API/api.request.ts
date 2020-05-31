@@ -2,7 +2,7 @@ import fs from "fs";
 import IResponse from "./interfaces";
 import DropboxRequest from "./dropbox.request";
 
-class ApiRequests extends DropboxRequest {
+export class ApiRequests extends DropboxRequest {
   private readonly uploadRequestURL =
     "https://content.dropboxapi.com/2/files/upload";
   private readonly getMetadataRequestURL =
@@ -70,5 +70,3 @@ class ApiRequests extends DropboxRequest {
     return this.getResponse(originResponse.body);
   }
 }
-
-export default ApiRequests;

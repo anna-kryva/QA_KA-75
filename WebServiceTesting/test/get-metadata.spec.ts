@@ -1,5 +1,5 @@
 import chai from "chai";
-import ApiRequests from "../src/api/api.request";
+import {ApiRequests} from "../src/api/api.request";
 
 export default function getMetadata(fileName: string, filePath: string) {
   describe("Get file metadata", () => {
