@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="10" result="Passed" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="17" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2020-05-31 16:36:26Z" end-time="2020-05-31 16:36:27Z" duration="0.943170">
+  <command-line><![CDATA[/home/b1z0n/labs/QA_KA-75/NUnit/NUnit.ConsoleRunner.3.11.1/tools/nunit3-console.exe UVersion.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1014" name="UVersion.dll" fullname="/home/b1z0n/labs/QA_KA-75/Manual/UVersion.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.081401" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Unix 5.4.0.33" platform="Unix" cwd="/home/b1z0n/labs/QA_KA-75/Manual" machine-name="fantasy" user="b1z0n" user-domain="fantasy" culture="" uiculture="" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="/home/b1z0n/labs/QA_KA-75/Manual" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="mono-4.0" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="11581" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1015" name="Tasks" fullname="Tasks" runstate="Runnable" testcasecount="10" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.068946" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+      <test-suite type="TestSuite" id="0-1016" name="Tests" fullname="Tasks.Tests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.068152" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+        <test-suite type="TestFixture" id="0-1000" name="TestUVersion" fullname="Tasks.Tests.TestUVersion" classname="Tasks.Tests.TestUVersion" runstate="Runnable" testcasecount="10" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.066318" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="17">
+          <test-suite type="ParameterizedMethod" id="0-1009" name="TestSingleNum" fullname="Tasks.Tests.TestUVersion.TestSingleNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.058215" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <test-case id="0-1006" name="TestSingleNum(&quot;1&quot;,&quot;1&quot;,0)" fullname="Tasks.Tests.TestUVersion.TestSingleNum(&quot;1&quot;,&quot;1&quot;,0)" methodname="TestSingleNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="857051592" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.042513" asserts="1" />
+            <test-case id="0-1007" name="TestSingleNum(&quot;1&quot;,&quot;9&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestSingleNum(&quot;1&quot;,&quot;9&quot;,-1)" methodname="TestSingleNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="1369339279" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000157" asserts="2" />
+            <test-case id="0-1008" name="TestSingleNum(&quot;1&quot;,&quot;0&quot;,1)" fullname="Tasks.Tests.TestUVersion.TestSingleNum(&quot;1&quot;,&quot;0&quot;,1)" methodname="TestSingleNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="1486069484" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000065" asserts="2" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="0-1013" name="TestWithDifferentDotNum" fullname="Tasks.Tests.TestUVersion.TestWithDifferentDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" testcasecount="3" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000373" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <test-case id="0-1010" name="TestWithDifferentDotNum(&quot;1.2&quot;,&quot;1.2.0&quot;,0)" fullname="Tasks.Tests.TestUVersion.TestWithDifferentDotNum(&quot;1.2&quot;,&quot;1.2.0&quot;,0)" methodname="TestWithDifferentDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="70046796" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000134" asserts="1" />
+            <test-case id="0-1011" name="TestWithDifferentDotNum(&quot;1.2&quot;,&quot;1.2.3&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestWithDifferentDotNum(&quot;1.2&quot;,&quot;1.2.3&quot;,-1)" methodname="TestWithDifferentDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="1062379572" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000076" asserts="2" />
+            <test-case id="0-1012" name="TestWithDifferentDotNum(&quot;1.2.3&quot;,&quot;1.2.3.4&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestWithDifferentDotNum(&quot;1.2.3&quot;,&quot;1.2.3.4&quot;,-1)" methodname="TestWithDifferentDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="151886001" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000065" asserts="2" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="0-1005" name="TestWithEqualDotNum" fullname="Tasks.Tests.TestUVersion.TestWithEqualDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" testcasecount="4" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000357" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+            <test-case id="0-1001" name="TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.2.3&quot;,0)" fullname="Tasks.Tests.TestUVersion.TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.2.3&quot;,0)" methodname="TestWithEqualDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="1826900492" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000122" asserts="1" />
+            <test-case id="0-1002" name="TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;4.5.6&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;4.5.6&quot;,-1)" methodname="TestWithEqualDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="126738715" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000056" asserts="2" />
+            <test-case id="0-1003" name="TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.23.3&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.23.3&quot;,-1)" methodname="TestWithEqualDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="9497937" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000048" asserts="2" />
+            <test-case id="0-1004" name="TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.2.333&quot;,-1)" fullname="Tasks.Tests.TestUVersion.TestWithEqualDotNum(&quot;1.2.3&quot;,&quot;1.2.333&quot;,-1)" methodname="TestWithEqualDotNum" classname="Tasks.Tests.TestUVersion" runstate="Runnable" seed="1927121252" result="Passed" start-time="2020-05-31 16:36:27Z" end-time="2020-05-31 16:36:27Z" duration="0.000065" asserts="2" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
