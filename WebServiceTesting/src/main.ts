@@ -1,4 +1,4 @@
-import ApiRequests from "./api/api.request";
+import {ApiRequests} from "./api/api.request";
 
 (async function () {
     try {
