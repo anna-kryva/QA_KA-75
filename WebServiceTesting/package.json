@@ -2,7 +2,7 @@
   "name": "webservicetesting",
   "version": "1.0.0",
   "description": "Cover some Dropbox endpoints with tests",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "test": "mocha --moduleResolution --require ts-node/register test/main.test.ts --timeout 10000 --exit",
     "start": "ts-node src/main.ts"
