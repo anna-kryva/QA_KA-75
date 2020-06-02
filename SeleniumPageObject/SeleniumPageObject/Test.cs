@@ -16,7 +16,7 @@ namespace Tests
 		{
 			var options = new ChromeOptions();
 			options.AddArgument("start-maximized");
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver("D:\\repos\\QA_KA-75\\SeleniumPageObject\\SeleniumPageObject\\bin\\Debug\\netcoreapp2.1");
 			page = new Page(driver);
 		}
 
@@ -89,7 +89,7 @@ namespace Tests
 		[Test]
 		public void DocumentationButton()
 		{
-			page.GoToUrl("https://www.pipedrive.com/")
+			page.GoToUrl("https://developers.pipedrive.com/")
 				.ClickDocsButton()
 				.Wait(1000)
 				;
@@ -100,7 +100,7 @@ namespace Tests
 		[Test]
 		public void APIButton()
 		{
-			page.GoToUrl("https://www.pipedrive.com/")
+			page.GoToUrl("https://developers.pipedrive.com/")
 				.ClickAPIButton()
 				.Wait(1000)
 				;
