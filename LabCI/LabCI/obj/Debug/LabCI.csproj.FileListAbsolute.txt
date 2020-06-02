@@ -1,0 +1,14 @@
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\NUnit3.TestAdapter.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\NUnit3.TestAdapter.pdb
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\nunit.engine.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\nunit.engine.api.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\LabCI.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\LabCI.pdb
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\nunit.framework.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\nunit.framework.pdb
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\bin\Debug\nunit.framework.xml
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\obj\Debug\LabCI.csprojAssemblyReference.cache
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\obj\Debug\LabCI.csproj.CoreCompileInputs.cache
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\obj\Debug\LabCI.csproj.CopyComplete
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\obj\Debug\LabCI.dll
+E:\Lab\2020(3 курс)\RPZ\LabCI\LabCI\obj\Debug\LabCI.pdb
