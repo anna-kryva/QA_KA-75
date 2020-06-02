@@ -1,6 +1,8 @@
 'use strict';
 
 const webdriver = require("selenium-webdriver");
+const chrome = require('selenium-webdriver/chrome');
+
 
 const AccountPage = require('./src/acc.page');
 const RegistrationPage = require('./src/reg.page');
@@ -8,12 +10,20 @@ const NewsPage = require('./src/news.page');
 const SymposiaPage = require('./src/symposia.page');
 const LogoutPage = require('./src/logout.page');
 
-const getDriver = () => new webdriver.Builder().forBrowser("chrome").build();
+const getDriver = () => {
+    const opts = new chrome.Options().headless();
+
+    return new webdriver.Builder()
+        .forBrowser("chrome")
+        .setChromeOptions(opts)
+        .build();
+}
 
 const main = () => {
     test('Invalid Privacy policy link', async () => {
         const driver = getDriver();
         const page = new RegistrationPage(webdriver, driver);
+        
         
         await page.loadPage();
         await page.clickPrivacyPolicy();
