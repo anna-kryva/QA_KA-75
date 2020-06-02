@@ -46,7 +46,7 @@ namespace PageObject
 
 		[FindsBy(How = How.XPath, Using = "/html/body/div[1]/div[4]/div[1]/a")]
 		public IWebElement DocsButton;
-
+		
 		[FindsBy(How = How.XPath, Using = "/html/body/div[1]/div[4]/div[2]/a")]
 		public IWebElement APIButton;
 

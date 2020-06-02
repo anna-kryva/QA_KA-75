@@ -16,7 +16,7 @@ namespace Tests
 		{
 			var options = new ChromeOptions();
 			options.AddArgument("start-maximized");
-			driver = new ChromeDriver("D:\\repos\\QA_KA-75\\SeleniumPageObject\\SeleniumPageObject\\bin\\Debug\\netcoreapp2.1");
+			driver = new ChromeDriver();
 			page = new Page(driver);
 		}
 
