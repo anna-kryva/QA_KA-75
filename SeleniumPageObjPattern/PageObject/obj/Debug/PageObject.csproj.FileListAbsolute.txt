@@ -1,0 +1,54 @@
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\nunit.engine.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\nunit.engine.api.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\PageObject.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\PageObject.pdb
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\nunit.framework.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\WebDriver.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\nunit.framework.pdb
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\nunit.framework.xml
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\WebDriver.xml
+C:\Users\uawes\Desktop\Autotests\PageObject\obj\Debug\PageObject.csprojAssemblyReference.cache
+C:\Users\uawes\Desktop\Autotests\PageObject\obj\Debug\PageObject.csproj.CoreCompileInputs.cache
+C:\Users\uawes\Desktop\Autotests\PageObject\obj\Debug\PageObject.csproj.CopyComplete
+C:\Users\uawes\Desktop\Autotests\PageObject\obj\Debug\PageObject.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\obj\Debug\PageObject.pdb
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\WebDriver.Support.dll
+C:\Users\uawes\Desktop\Autotests\PageObject\bin\Debug\WebDriver.Support.xml
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.engine.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.engine.api.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\PageObject.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\PageObject.pdb
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.Support.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.pdb
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.xml
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.xml
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.Support.xml
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csprojAssemblyReference.cache
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csproj.CopyComplete
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.dll
+C:\Users\User\Desktop\epam\QA_KA-75-Julia.Sierykh_lab\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.pdb
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.engine.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.engine.api.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\PageObject.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\PageObject.pdb
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.Support.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.pdb
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\nunit.framework.xml
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.xml
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\bin\Debug\WebDriver.Support.xml
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.csproj.CopyComplete
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.dll
+C:\Users\User\Desktop\Новая папка\SeleniumPageObjPattern\PageObject\obj\Debug\PageObject.pdb
