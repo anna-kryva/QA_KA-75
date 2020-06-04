@@ -1,0 +1,19 @@
+{
+    "tests": [
+      {
+        "fileName": "goLogin",
+        "filePath": "./tests/goLogin.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "logoClick",
+        "filePath": "./tests/logoClick.test.js",
+        "timeout": 60000
+      },
+      {
+        "fileName": "searchQuery",
+        "filePath": "./tests/searchQuery.test.js",
+        "timeout": 60000
+      }
+    ]
+}

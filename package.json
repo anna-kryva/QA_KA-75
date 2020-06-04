@@ -1,0 +1,31 @@
+{
+  "name": "testautomation_pageobject",
+  "version": "1.0.0",
+  "description": "Automated testing the website www.sportlife.ua  with Selenium WebDriver (PageObject pattern) and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha tests/submitForm.test.js --timeout 600000",
+    "runner": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anna-kryva/QA_KA-75.git"
+  },
+  "keywords": [
+    "Selenium"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anna-kryva/QA_KA-75/issues"
+  },
+  "homepage": "https://github.com/anna-kryva/QA_KA-75#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^83.0.0",
+    "mocha": "^7.1.2",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^1.23.3"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.2380" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T22:24:36" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Input the search" timestamp="2020-06-04T22:24:36" tests="1" file="C:\Users\dragula\Documents\Development\Testing\TestAutomation_PageObject\tests\searchQuery.test.js" time="13.2380" failures="0">
+    <testcase name="Input the search should redirect to search page" time="13.2380" classname="should redirect to search page">
+    </testcase>
+  </testsuite>
+</testsuites>
