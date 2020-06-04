@@ -1,0 +1,9 @@
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/SeleniumExtras.PageObjects.dll
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/nunit.framework.dll
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/WebDriver.dll
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/chromedriver
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/OnlineToolsPage_test.dll.mdb
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/bin/Debug/OnlineToolsPage_test.dll
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/obj/Debug/OnlineToolsPage_test.dll
+/home/itsuprun/IASA/Testing/OnlineToolsPage_test/OnlineToolsPage_test/obj/Debug/OnlineToolsPage_test.dll.mdb

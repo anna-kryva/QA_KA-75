@@ -1,0 +1,56 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=121d1433_002Df1dd_002D4f9e_002D8714_002D3f11550af4e2/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="crc16Test" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.crc16Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6115a42e_002Db3c2_002D4730_002D9252_002Dc3fb985e9f0f/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="sha256Test #2" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.sha256Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=77f84cb2_002D8c0c_002D4c04_002D80ed_002D630a90190a29/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="sha256Test" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.sha256Test&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7d8c165d_002Df6e2_002D49fd_002Dabd0_002D12aa5290a891/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="sha256Test #3" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;Or&gt;
+    &lt;Or&gt;
+      &lt;Or&gt;
+        &lt;Or&gt;
+          &lt;Or&gt;
+            &lt;Or&gt;
+              &lt;Or&gt;
+                &lt;TestAncestor&gt;
+                  &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.sha256Test&lt;/TestId&gt;
+                &lt;/TestAncestor&gt;
+                &lt;TestAncestor&gt;
+                  &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.crc16Test&lt;/TestId&gt;
+                &lt;/TestAncestor&gt;
+              &lt;/Or&gt;
+              &lt;TestAncestor&gt;
+                &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.crc32Test&lt;/TestId&gt;
+              &lt;/TestAncestor&gt;
+            &lt;/Or&gt;
+            &lt;TestAncestor&gt;
+              &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.md2Test&lt;/TestId&gt;
+            &lt;/TestAncestor&gt;
+          &lt;/Or&gt;
+          &lt;TestAncestor&gt;
+            &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.md4Test&lt;/TestId&gt;
+          &lt;/TestAncestor&gt;
+        &lt;/Or&gt;
+        &lt;TestAncestor&gt;
+          &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.md5Test&lt;/TestId&gt;
+        &lt;/TestAncestor&gt;
+      &lt;/Or&gt;
+      &lt;TestAncestor&gt;
+        &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.sha1Test&lt;/TestId&gt;
+      &lt;/TestAncestor&gt;
+    &lt;/Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::BC00CC59-F8FF-4D0B-A6A7-85B6483774C5::.NETFramework,Version=v4.6.1::OnlineToolsPage.OnlineToolsTests.sha224Test&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
