@@ -1,0 +1,16 @@
+{
+    "tests": [
+      {
+        "file": "./tests/goLogin.test.js",
+        "timeout": 60000
+      },
+      {
+        "file": "./tests/searchQuery.test.js",
+        "timeout": 60000
+      },
+      {
+        "file": "./tests/logoClick.test.js",
+        "timeout": 60000
+      }
+    ]
+}

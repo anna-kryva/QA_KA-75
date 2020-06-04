@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.4690" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T13:02:42" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Go to main page via the logo" timestamp="2020-06-04T13:02:42" tests="1" file="C:\Users\dragula\Documents\Development\Testing\TestAutomation_WebDriver\tests\logoClick.test.js" time="4.4690" failures="0">
+    <testcase name="Go to main page via the logo click to logo and go to main page" time="4.4690" classname="click to logo and go to main page">
+    </testcase>
+  </testsuite>
+</testsuites>
