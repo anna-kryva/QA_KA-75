@@ -1,0 +1,17 @@
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\bin\Debug\SeleniumUse.dll
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\bin\Debug\SeleniumUse.pdb
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.csprojAssemblyReference.cache
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.csproj.CoreCompileInputs.cache
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.dll
+D:\универ\3 курс\testing)\c#\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.pdb
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\bin\Debug\SeleniumUse.dll
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\bin\Debug\SeleniumUse.pdb
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.csprojAssemblyReference.cache
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.csproj.CoreCompileInputs.cache
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.dll
+D:\универ\3 курс\testing)\c#\QA_labs\SeleniumUse\SeleniumUse\obj\Debug\SeleniumUse.pdb
+D:\STUDY\2_sem_3_crs\QA\QA_KA-75\AnnaSinitsaLab2(selenium)\SeleniumUse\bin\Debug\SeleniumUse.dll
+D:\STUDY\2_sem_3_crs\QA\QA_KA-75\AnnaSinitsaLab2(selenium)\SeleniumUse\bin\Debug\SeleniumUse.pdb
+D:\STUDY\2_sem_3_crs\QA\QA_KA-75\AnnaSinitsaLab2(selenium)\SeleniumUse\obj\Debug\SeleniumUse.csproj.CoreCompileInputs.cache
+D:\STUDY\2_sem_3_crs\QA\QA_KA-75\AnnaSinitsaLab2(selenium)\SeleniumUse\obj\Debug\SeleniumUse.dll
+D:\STUDY\2_sem_3_crs\QA\QA_KA-75\AnnaSinitsaLab2(selenium)\SeleniumUse\obj\Debug\SeleniumUse.pdb
